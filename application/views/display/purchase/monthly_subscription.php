@@ -1,0 +1,2 @@
+monthly_subscription
+月額会員登録
