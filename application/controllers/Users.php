@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Users extends CI_Controller {
 
     /**
-     * 新規登録
+     * 新規会員登録
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class Users extends CI_Controller {
     }
 
     /**
-     * パスワード再設定
+     * パスワードの再設定
      * @return void
      */
     public function reset_password()
@@ -49,7 +49,7 @@ class Users extends CI_Controller {
     }
     
     /**
-     * 退会
+     * 退会ページ
      *
      * @return void
      */
