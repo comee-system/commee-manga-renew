@@ -35,7 +35,7 @@ class Creator extends CI_Controller {
     public function serial_list()
     {
         $this->load->view('header');
-		$this->load->view('/display/mypage/serial/list');
+		$this->load->view('/display/mypage/serial/serial_list');
 		$this->load->view('footer');
     }
 
@@ -47,7 +47,7 @@ class Creator extends CI_Controller {
     public function update_serial()
     {
         $this->load->view('header');
-		$this->load->view('/display/mypage/serial/update');
+		$this->load->view('/display/mypage/serial/update_serial');
 		$this->load->view('footer');
     }
 
@@ -59,7 +59,7 @@ class Creator extends CI_Controller {
     public function regist_serial()
     {
         $this->load->view('header');
-		$this->load->view('/display/mypage/serial/regist');
+		$this->load->view('/display/mypage/serial/regist_serial');
 		$this->load->view('footer');
     }
 
@@ -111,4 +111,5 @@ class Creator extends CI_Controller {
             $this->load->view('/display/mypage/dashboard/comment_list');
             $this->load->view('footer');
         }
+        
 }

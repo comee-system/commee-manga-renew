@@ -21,8 +21,7 @@
 		<div class="container-fluid">
 			<!-- Small boxes (Stat box) -->
 			<div class="row">
-				aaadfdf
-
+			aaa
 
 			</div>
 		</div><!-- /.container-fluid -->

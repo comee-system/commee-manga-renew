@@ -1,1 +1,0 @@
-card_information_view

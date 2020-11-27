@@ -102,7 +102,7 @@ class Users extends CI_Controller {
     public function update_bunk()
     {
         $this->load->view('header');
-		$this->load->view('/display/mypage/pay');
+		$this->load->view('/display/users/update_bunk');
 		$this->load->view('footer');
     }
     

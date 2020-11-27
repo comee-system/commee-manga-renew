@@ -19,9 +19,10 @@ class Top extends CI_Controller {
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
 
-	 /*
+	 /**
 	*	ログイン前トップ
 	*	ログイン後トップ
+	*
 	*/
 	public function index()
 	{
@@ -29,4 +30,5 @@ class Top extends CI_Controller {
 		$this->load->view('/display/top');
 		$this->load->view('footer');
 	}
+
 }

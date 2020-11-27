@@ -1,4 +1,4 @@
-picture
+manga_picture
 
 /* 
 作品投稿/マンガ/画像選択(PC版では不要)

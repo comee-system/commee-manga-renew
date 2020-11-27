@@ -6,6 +6,7 @@ class Account extends CI_Controller {
     /**
      * マイページ メニュー
      *
+     * 
      */
     public function index()
     {
@@ -61,4 +62,5 @@ class Account extends CI_Controller {
 		$this->load->view('/display/mypage/account/report');
 		$this->load->view('footer');
     }
+    
 }

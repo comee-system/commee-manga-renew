@@ -1,1 +1,3 @@
-reset password page
+reset_password
+
+/* パスワードの再設定 */
