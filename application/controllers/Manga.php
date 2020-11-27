@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class View extends CI_Controller {
+class Manga extends CI_Controller {
 
     /**
      * 作品画面
@@ -11,7 +11,7 @@ class View extends CI_Controller {
     public function index()
     {
         $this->load->view('/header');
-        $this->load->view('/display/view/index');
+        $this->load->view('/display/manga/index');
         $this->load->view('/footer');
     }
 
@@ -23,7 +23,7 @@ class View extends CI_Controller {
     public function serial()
     {
         $this->load->view('/header');
-        $this->load->view('/display/view/serial');
+        $this->load->view('/display/manga/serial');
         $this->load->view('/footer');
     }
 
@@ -35,7 +35,7 @@ class View extends CI_Controller {
     public function list()
     {
         $this->load->view('/header');
-        $this->load->view('/display/view/list');
+        $this->load->view('/display/manga/list');
         $this->load->view('/footer');
     }
 
