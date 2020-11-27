@@ -56,10 +56,10 @@ class Purchase extends CI_Controller {
      *
      * @return void
      */
-    public function complete()
+    public function payment_complete()
     {
         $this->load->view('/header');
-        $this->load->view('/display/purchase/complete');
+        $this->load->view('/display/purchase/payment_complete');
         $this->load->view('/footer');
     }
 
