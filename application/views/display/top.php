@@ -1,5 +1,5 @@
 <?php $this->load->view('/display/topmenu'); ?>
-<?php $this->load->view('/display/menu'); ?>
+<?php $this->load->view('/display/sidemenu'); ?>
 
 
 <!-- Content Wrapper. Contains page content -->

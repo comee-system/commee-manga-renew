@@ -1,17 +1,21 @@
-<div class="wrapper">
-  <!-- Navbar -->
-  <nav class="main-header navbar navbar-expand navbar-white navbar-light bordernone">
-    <!-- Left navbar links -->
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" data-widget="pushmenu" href="#"><i class="fas fa-bars"></i></a>
-      </li>
-      <li class="nav-item d-none d-sm-inline-block">
-        <a href="index3.html" class="nav-link">おすすめ</a>
-      </li>
-      <li class="nav-item d-none d-sm-inline-block">
-        <a href="#" class="nav-link">募集中</a>
-      </li>
-    </ul>
-  </nav>
-</div>
+<!-- Topmenu -->
+<nav class="navbar fixed-top navbar-light" style="background-color: rgb(0,180,0);">
+
+    <!-- COMEE Rogo -->
+    <a class="navbar-brand col-xs-2" href="/top">
+      <img src="#" width="80" height="30" alt="" loading="lazy">
+    </a>
+
+      <!-- Search door-->
+      <form class="form-inline">
+
+        <!-- 検索ボタンを押したら検索窓を表示する機能をJavaScriptで追加-->
+        <div class="text-right">
+          <button class="btn btn-light btn-sm" type="submit">検索</button>
+      </form>
+          <!-- Link -->
+          <a href="/users/login" class="btn btn-light btn-default btn-sm ml-2" role="button">ログイン</a>
+          <a href="/users/regist_user" class="btn btn-light btn-default btn-sm ml-2" role="button">新規登録</a>
+        </div>
+
+</nav>
