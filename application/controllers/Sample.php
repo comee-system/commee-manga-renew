@@ -4,15 +4,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Sample extends CI_Controller {
 
     /**
-     * 
+     * テスト用
      *
      * @return void
      */
-    public function o()
+    public function index()
     {
-        $this->load->view('/header');
-        $this->load->view('/display/sample/o');
-        $this->load->view('/footer');
+        $this->load->view('elements/header');
+        $this->load->view('sample/index');
+        $this->load->view('elements/footer');
     }
 
 }

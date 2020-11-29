@@ -58,9 +58,9 @@ class MangaDetail extends MY_Controller {
 		$data[ 'D_IMAGE'    ] = D_IMAGE;
 		
 		$data[ 'message' ] = $this->session->flashdata('success');
-		$this->load->view('header');
+		$this->load->view('admin/elements/header');
 		$this->load->view('/admin/mangaDetail/list',$data);
-		$this->load->view('footer');
+		$this->load->view('admin/elements/footer');
 	}
 
 
@@ -152,9 +152,9 @@ class MangaDetail extends MY_Controller {
 		$data['g_array_ageflag'  ] = $this->g_array_ageflag;
 		$data['g_array_sale_detail'  ] = $this->g_array_sale_detail;
 
-		$this->load->view('header');
+		$this->load->view('admin/elements/header');
 		$this->load->view('/admin/mangaDetail/regist',$data);
-		$this->load->view('footer');
+		$this->load->view('admin/elements/footer');
 	}
 	/**********
 	 * パラメータ登録

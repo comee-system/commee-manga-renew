@@ -49,9 +49,9 @@ class Users extends MY_Controller {
 		$data['g_array_type'  ] = $this->g_array_type;
 		$data[ 'message' ] = $this->session->flashdata('message');
 
-		$this->load->view('header');
+		$this->load->view('admin/elements/header');
 		$this->load->view('/admin/index',$data);
-		$this->load->view('footer');
+		$this->load->view('admin/elements/footer');
 	}
 	/*************
 	 * ユーザデータ登録
@@ -156,9 +156,9 @@ class Users extends MY_Controller {
 			}
 		}
 		$data['users_open'] = $this->open_menu;
-		$this->load->view('header');
+		$this->load->view('admin/elements/header');
 		$this->load->view('/admin/regist',$data);
-		$this->load->view('footer');
+		$this->load->view('admin/elements/footer');
 
 	}
 	/**********************
@@ -213,9 +213,9 @@ class Users extends MY_Controller {
 		$data['users_open'] = $this->open_menu;
 		
 		$data['error'] = $this->Payment->error;
-		$this->load->view('header');
+		$this->load->view('admin/elements/header');
 		$this->load->view('/admin/payment',$data);
-		$this->load->view('footer');
+		$this->load->view('admin/elements/footer');
 	}
 	
 }

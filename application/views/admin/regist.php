@@ -1,6 +1,6 @@
   
-  <?php $this->load->view('topmenu'); ?>
-  <?php $this->load->view('menu'); ?>
+  <?php $this->load->view('admin/elements/topmenu'); ?>
+  <?php $this->load->view('admin/elements/menu'); ?>
   <?php
     $txt = "登録"; 
     if($id > 0 ) $txt = "更新";

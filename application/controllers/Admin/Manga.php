@@ -56,9 +56,9 @@ class Manga extends MY_Controller {
 		$data['username'    ] = $username;
 		$data['genre_name'  ] = $genre_name;
 		$data['tag_name'    ] = $tag_name;
-		$this->load->view('header');
+		$this->load->view('admin/elements/header');
 		$this->load->view('/admin/manga/list',$data);
-		$this->load->view('footer');
+		$this->load->view('admin/elements/footer');
 	}
 	/**************************
 	 * 削除
@@ -209,9 +209,9 @@ class Manga extends MY_Controller {
 
 
 
-		$this->load->view('header');
+		$this->load->view('admin/elements/header');
 		$this->load->view('/admin/manga/regist',$data);
-		$this->load->view('footer');
+		$this->load->view('admin/elements/footer');
 	}
 	/*******************
 	 * 変数代入

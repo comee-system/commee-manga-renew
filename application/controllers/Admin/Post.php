@@ -24,8 +24,8 @@ class Post extends MY_Controller {
 		$this->load->model("Sample");
 		$data['result'] = $this->Sample->getData("sample");
 		
-		$this->load->view('header');
+		$this->load->view('admin/elements/header');
 		$this->load->view('/admin/index');
-		$this->load->view('footer');
+		$this->load->view('admin/elements/footer');
 	}
 }

@@ -1,1 +1,0 @@
-regist_error

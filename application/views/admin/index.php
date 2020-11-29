@@ -1,6 +1,6 @@
   
-  <?php $this->load->view('topmenu'); ?>
-  <?php $this->load->view('menu'); ?>
+  <?php $this->load->view('admin/elements/topmenu'); ?>
+  <?php $this->load->view('admin/elements/menu'); ?>
 
 
   <!-- Content Wrapper. Contains page content -->
