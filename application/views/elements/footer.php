@@ -5,5 +5,7 @@
 <!-- Bootstrap 4 -->
 <script src="/assets/adminlte/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 
+<script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+
 </body>
 </html>
