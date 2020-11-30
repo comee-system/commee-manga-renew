@@ -92,3 +92,9 @@ li a.nav-link.active{
     background-color:#dc143c !important;
 }
 
+/* フロントページ
+**********************************************/
+
+.main-contents {
+    padding-top: 80px;
+}
