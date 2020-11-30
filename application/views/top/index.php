@@ -1,5 +1,4 @@
 <?php $this->load->view('elements/topmenu'); ?>
-<?php $this->load->view('elements/sidemenu'); ?>
 
 
 <!-- Content Wrapper. Contains page content -->
