@@ -94,7 +94,16 @@ li a.nav-link.active{
 
 /* フロントページ
 **********************************************/
-
 .main-contents {
     padding-top: 80px;
+}
+
+/* トグルボタン　デザイン
+*********************************************/
+.toggle.ios, .toggle-on.ios, .toggle-off.ios {
+    border-radius: 20px;
+}
+
+.toggle.ios .toggle-handle {
+    border-radius: 20px;
 }

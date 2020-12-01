@@ -12,13 +12,8 @@
 	<link rel="stylesheet" href="/assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="/assets/adminlte/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
 
-
-	<!-- JQuery 読み込み -->
-	<script src="/assets/adminlte/plugins/jquery/jquery.js"><script>
-
 	<!-- Bootstrap toggle buttom design change tool -->
 	<link href="/assets/css/bootstrap-toggle.min.css" rel="stylesheet">
-	<script src="/assets/js/bootstrap-toggle.min.js"></script>
 
 	<link rel="stylesheet" href="/assets/css/basic.css">
 

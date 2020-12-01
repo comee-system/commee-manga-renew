@@ -4,6 +4,7 @@
         <!-- アカウント情報の登録フォーム -->
         <div class="alert alert-secondary w-100 mx-auto text-center" role="alert">アカウント情報</div>
 
+        <!-- アカウント欄 -->
         <div class="list-group">
             <div class="list-group-item list-group-item-secondary d-flex justify-content-between">
                 アカウント
@@ -62,7 +63,7 @@
                                         </button>
                                     </div>
                                     <div class="modal-body">
-                                    年齢制限のある作品は以下のような表現を含む作品を示します。
+                                    年齢制限のある作品は以下のような表現を含む作品を示します。(※詳細未定) 
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-dismiss="modal">閉じる</button>
@@ -73,44 +74,31 @@
                     </i>
                 </div>
                 <div class="ml-auto p-2 bd-highlight">
-                    <input type="checkbox" checked data-toggle="toggle" data-size="normal">
+                    <input type="checkbox" checked data-toggle="toggle" data-style="ios">
                 </div>
             </div>
         </div>
 
-            <!-- SNS連携の選択フォーム -->
-            <div class="list-group my-3">
-                <div class="list-group-item list-group-item-secondary d-flex justify-content-between">
-                    SNS連携
-                </div>
-                <div class="list-group-item d-flex justify-content-between align-items-center">
-                    Twitter
-                    <div class="custom-control custom-switch">
-                        <input type="checkbox" class="custom-control-input" id="customSwitch2">
-                        <label class="custom-control-label" for="customSwitch2"></label>
-                    </div>
-                </div>
-                <div class="list-group-item d-flex justify-content-between align-items-center">
-                    Facebook
-                    <div class="custom-control custom-switch">
-                        <input type="checkbox" class="custom-control-input" id="customSwitch3">
-                        <label class="custom-control-label" for="customSwitch3"></label>
-                    </div>
-                </div>
-                <div class="list-group-item d-flex justify-content-between align-items-center">
-                    Google
-                    <div class="custom-control custom-switch">
-                        <input type="checkbox" class="custom-control-input" id="customSwitch4">
-                        <label class="custom-control-label" for="customSwitch4"></label>
-                    </div>
-                </div>
-                <div class="list-group-item d-flex justify-content-between align-items-center">
-                    LINE
-                    <div class="custom-control custom-switch">
-                        <input type="checkbox" class="custom-control-input" id="customSwitch5">
-                        <label class="custom-control-label" for="customSwitch5"></label>
-                    </div>
-                </div>
+        <!-- SNS連携の選択フォーム -->
+        <div class="list-group my-3">
+            <div class="list-group-item list-group-item-secondary d-flex justify-content-between">
+                SNS連携
             </div>
-
+            <div class="list-group-item d-flex justify-content-between align-items-center">
+                Twitter
+                <input type="checkbox" checked data-toggle="toggle" data-style="ios">
+            </div>
+            <div class="list-group-item d-flex justify-content-between align-items-center">
+                Facebook
+                <input type="checkbox" checked data-toggle="toggle" data-style="ios">
+            </div>
+            <div class="list-group-item d-flex justify-content-between align-items-center">
+                Google
+                <input type="checkbox" checked data-toggle="toggle" data-style="ios">
+            </div>
+            <div class="list-group-item d-flex justify-content-between align-items-center">
+                LINE
+                <input type="checkbox" checked data-toggle="toggle" data-style="ios">
+            </div>
         </div>
+    </div>
