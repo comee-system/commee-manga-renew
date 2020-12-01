@@ -1,6 +1,5 @@
 <?php $this->load->view('elements/topmenu'); ?>
 
-<div class="gap">
     <div class="main-contents container">
         <div class="shadow-lg p-3 mb-5 bg-white rounded my-5">
             <h1 class="text-center my-5 font-weight-bold">退会</h1>
@@ -24,4 +23,3 @@
             </div>
         </div>
     </div>
-</div>
