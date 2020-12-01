@@ -98,9 +98,3 @@ li a.nav-link.active{
 .main-contents {
     padding-top: 80px;
 }
-
-/* ヘッダー下余白
-**********************************************/
-.gap{
-    margin-top: 100px;
-}

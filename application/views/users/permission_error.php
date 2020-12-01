@@ -1,6 +1,5 @@
 <?php $this->load->view('elements/topmenu'); ?>
 
-<div class="gap">
     <div class="main-contents container">
         <div class="shadow-lg p-3 mb-5 bg-white rounded my-5">
             <img src="/assets/image/1/icon/5fa2c65bbb3d5.png" class="rounded mx-auto d-block" alt="error_image">
@@ -17,8 +16,7 @@
                 <a href="/users/login" class="btn btn-primary w-25 mx-auto text-center">ログイン</a>
             </div>
             <div class="text-center my-4">
-                <a href="#" class="btn btn-danger w-25 mx-auto text-center">キャンセル</a>
+                <a href="/top/index" class="btn btn-danger w-25 mx-auto text-center">キャンセル</a>
             </div>
         </div>
     </div>
-</div>
