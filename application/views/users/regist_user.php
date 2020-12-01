@@ -1,37 +1,27 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport"
-    content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-</head>
-<body>
-  <div class="container">
 
-    <div class="navbar" >
-      <div class="center-block">
+<?php $this->load->view('elements/topmenu_regist'); ?>
+
+<div class="gap"></div> 
+
+  <div class="main-contents container shadow-lg p-3 mb-5 bg-white rounded">
+
+      <div class="text-center my-5">
         <h1>COMEEに登録する</h1>
       </div>
-    </div>
 
-
-    <form>
-
-        <div class="form-row">
-            <label class="col-sm-8 col-sm-offset-8">メールアドレス <span class="badge badge-danger">必須</span></label>
+     <form>
+        <div class="form-row text-left justify-content-center">
+            <label class="col-sm-9 col-sm-offset-2"> メールアドレス <span class="badge badge-danger">必須</span></label>
             <div class="col-sm-9">
               <p>
-                <input type="email" name="email" autocomplete="email" class="form-control" placeholder="メールアドレス" required />
+                <input type="email" name="email" autocomplete="email" class="form-control " placeholder="メールアドレス" required />
               </p>
             </div>
           </div>
-
-      <div class="form-row">
-        <label class="col-sm-8 col-sm-offset-2">パスワード <span class="badge badge-danger">必須</span><br>8文字以上半角英数記号</label>
+        
+      <div class="form-row text-left justify-content-center">
+        <label class="col-sm-9 col-sm-offset-2">パスワード <span class="badge badge-danger">必須</span><br>*8文字以上半角英数記号</label>
         <div class="col-sm-9">
           <p>
             <input type="password" name="password" autocomplete="new-password" class="form-control" placeholder="パスワード" required />
@@ -39,8 +29,8 @@
         </div>
       </div>
 
-      <div class="form-row">
-        <label class="col-sm-8 col-sm-offset-2">ユーザネーム <span class="badge badge-danger">必須</span><br>（COMEEで表示される名前です）</label><br>
+      <div class="form-row text-left justify-content-center">
+        <label class="col-sm-9 col-sm-offset-2">ユーザネーム <span class="badge badge-danger">必須</span><br>（COMEEで表示される名前です）</label><br>
         <div class="col-sm-9">
           <p>
             <input type="text" name="name" autocomplete="name" class="form-control" placeholder="ユーザネーム" required />
@@ -48,13 +38,18 @@
         </div>
       </div>
 
-      <div class="form-row">
-        <label class="col-sm-8 col-sm-offset-2">生年月日</label>
+      <div class="form-row text-left justify-content-center">
+        <label class="col-sm-9 col-sm-offset-2">生年月日</label>
 
         <div class="col-sm-9">
 
           <select class="custom-select w-25" title="生年月日(西暦)" name="bday-year" autocomplete="bday-year">
             <option selected="">----</option>
+            <option value="2015">2015</option>
+            <option value="2014">2014</option>
+            <option value="2013">2013</option>
+            <option value="2012">2012</option>
+            <option value="2011">2011</option>
             <option value="2010">2010</option>
             <option value="2009">2009</option>
             <option value="2008">2008</option>
@@ -116,6 +111,26 @@
             <option value="1952">1952</option>
             <option value="1951">1951</option>
             <option value="1950">1950</option>
+            <option value="1949">1949</option>
+            <option value="1948">1948</option>
+            <option value="1947">1947</option>
+            <option value="1946">1946</option>
+            <option value="1945">1945</option>
+            <option value="1944">1944</option>
+            <option value="1943">1943</option>
+            <option value="1942">1942</option>
+            <option value="1941">1941</option>
+            <option value="1930">1940</option>
+            <option value="1939">1939</option>
+            <option value="1938">1938</option>
+            <option value="1937">1937</option>
+            <option value="1936">1936</option>
+            <option value="1935">1935</option>
+            <option value="1934">1934</option>
+            <option value="1933">1933</option>
+            <option value="1932">1932</option>
+            <option value="1931">1931</option>
+            <option value="1930">1930</option>
           </select>
           年
           <select class="custom-select w-25" title="生年月日(月)" name="bday-month" autocomplete="bday-month">
@@ -173,8 +188,8 @@
 
       </div>
       <br>
-      <div class="form-row">
-        <label class="col-sm-8 col-sm-offset-2">ユーザID  <span class="badge badge-danger">必須</span><br> 8文字以上半角英数記号</label>
+      <div class="form-row text-left justify-content-center">
+        <label class="col-sm-9 col-sm-offset-2">ユーザID  <span class="badge badge-danger">必須</span><br> *5～16文字, 半角英数字と_(アンダースコア)がご利用できます。</label>
         <div class="col-sm-9">
           <p>
             <input type="text" name="uid" autocomplete="uid" class="form-control" placeholder="ユーザID" required />
@@ -183,10 +198,40 @@
       </div>
 
       <div class="text-center my-5">
-        <button type="submit" class="btn btn-success">登録する</button>
+        <button type="submit" class="btn btn-success w-25">登録する</button>
       </div>
-
+      <br>
     </form>
+
+<!-- 
+    <div class="text-center my-5">
+        <h3>ソーシャルアカウントで登録</h3>
+      <div class="btn-group d-flex">
+        <button type="button" class="btn btn-primary m-4"> <i class="fab fa-twitter">　Twitter</i></button>
+        <button type="button" class="btn btn-dark m-4"><i class="fab fa-facebook-f">　Facebook</i></button>
+        </div>
+      <div class="btn-group d-flex">
+        <button type="button" class="btn btn-danger m-4"><i class="fab fa-google">　Google</i></button>
+        <button type="button" class="btn btn-success m-4"><i class="fab fa-line">　LINE　　</i></button>
+      </div>
+      <div class="m-3"></div>
+    </div> -->
+
+    <div class="text-center my-5">
+        <h3>ソーシャルアカウントで登録</h3>
+      <div class="btn d-flex justify-content-around">
+        <button type="button" class="btn btn-primary w-25 m-4"> <i class="fab fa-twitter">　Twitter</i></button>
+        <button type="button" class="btn btn-dark w-25 m-4"><i class="fab fa-facebook-f">　Facebook</i></button>
+        </div>
+      <div class="btn d-flex justify-content-around">
+        <button type="button" class="btn btn-danger w-25 m-4"><i class="fab fa-google">　Google</i></button>
+        <button type="button" class="btn btn-success w-25 m-4"><i class="fab fa-line">　LINE　　</i></button>
+      </div>
+      <div class="m-3"></div>
+    </div>
+
+
   </div>
-</body>
-</html>
+
+</div>
+

@@ -1,7 +1,7 @@
 <header>
 	<!-- Top Nav -->
 	<nav class="navbar fixed-top navbar-expand navbar-light bg-light">
-		<a class="navbar-brand" href="/">Comee</a>
+		<a class="navbar-brand text-success" href="/">Comee</a>
 
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav ml-auto">
