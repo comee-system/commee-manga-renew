@@ -38,7 +38,7 @@ class Users extends CI_Controller {
     }
 
     /**
-     * パスワードを忘れた場合の再設定ページ
+     * パスワードを忘れた場合の再設定ページ(メールアドレス入力画面)
      * 
      * @return void
      */
@@ -46,6 +46,18 @@ class Users extends CI_Controller {
     {
         $this->load->view('elements/header');
         $this->load->view('users/reset_password');
+        $this->load->view('elements/footer');
+    }
+
+    /**
+     * パスワードを忘れた場合の再設定ページ(新パスワード登録画面)
+     * 
+     * @return void
+     */
+    public function reset_password_regist()
+    {
+        $this->load->view('elements/header');
+        $this->load->view('users/reset_password_regist');
         $this->load->view('elements/footer');
     }
     
