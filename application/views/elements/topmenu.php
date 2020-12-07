@@ -22,7 +22,7 @@
 						</a>
 						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="menuDropdown">
 							<a class="dropdown-item text-secondary" href="/users/settings">アカウント設定</a>
-							<a class="dropdown-item text-secondary" href="/users/edit_creator_profile">クリエーターページ編集</a>
+							<a class="dropdown-item text-secondary" href="/mypage/edit_creator_profile">クリエーターページ編集</a>
 							<div class="dropdown-divider"></div>
 							<a class="dropdown-item text-secondary" href="/manga/list">作品一覧</a>
 							<a class="dropdown-item text-secondary" href="/manga/serial_list">連載一覧</a>
@@ -31,7 +31,7 @@
 							<a class="dropdown-item text-secondary" href="/mypage/following_list">フォロー</a>
 							<a class="dropdown-item text-secondary" href="/mypage/my_list?type=bought">購入した作品</a>
 							<a class="dropdown-item text-secondary" href="/mypage/my_list?type=like">Likeした作品</a>
-							<a class="dropdown-item text-secondary" href="/mypage/subsciption_list">月額会員登録中の連載</a>
+							<a class="dropdown-item text-secondary" href="/mypage/subscription_list">月額会員登録中の連載</a>
 							<div class="dropdown-divider"></div>
 							<a class="dropdown-item text-secondary" href="/users/logout">ログアウト</a>
 						</div>
