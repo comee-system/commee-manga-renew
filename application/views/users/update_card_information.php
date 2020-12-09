@@ -14,9 +14,9 @@
 
                                 <!-- 使用できるカードの画像一覧 -->
                                 <div class="alert alert-dark mt-3" role="alert">
-                                    <h4 class="alert-heading m-4">使用できるカードの画像一覧
+                                    <h6 class="alert-heading m-4">使用できるカードの画像一覧
                                         <img src="" alt="" class="">
-                                    </h4>
+                                    </h6>
                                 </div>
 
                                 <!-- カード番号の入力欄 -->
@@ -91,12 +91,12 @@
 
                                 <!-- キャンセル・確定ボタン -->
                                 <div class="row justify-content-around">
-                                    <input class="btn btn-danger w-25 mt-3" type="reset" value="キャンセル">
-                                    <a class="btn btn-success w-25 mt-3" href="/users/settings" type="submit">確定</a>
+                                    <input class="btn btn-danger mt-3" type="reset" value="キャンセル">
+                                    <a class="btn btn-success mt-3" href="/users/settings" type="submit">確定</a>
                                 </div>
                     
                                 <!-- 注意書き -->
-                                <p class="text-center main-text p-5">
+                                <p class="text-center main-text pt-5">
                                     クレジットカード情報の取り扱いについては<br>
                                     「課金情報の取り扱いの安全性について」をご覧ください。
                                 </p> 

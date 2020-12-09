@@ -86,9 +86,9 @@
                         </div>
                     </div>
                     <div class="row justify-content-center">
-                        <button type="button" class="btn btn-danger w-25 mt-3 mx-3"type="reset">無料</button>
-                        <button type="button" class="btn btn-info w-25 mt-3 mx-3" type="button">有料買い切り</button>
-                        <button type="button" class="btn btn-success w-25 mt-3 mx-3" type="button">有料月額</button>
+                        <button type="button" class="btn btn-danger mt-3 mx-3"type="reset">無料</button>
+                        <button type="button" class="btn btn-info mt-3 mx-3" type="button">有料買い切り</button>
+                        <button type="button" class="btn btn-success mt-3 mx-3" type="button">有料月額</button>
                     </div>
 
                 </form>
