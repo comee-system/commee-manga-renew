@@ -107,3 +107,27 @@ li a.nav-link.active{
 .toggle.ios .toggle-handle {
     border-radius: 20px;
 }
+
+
+/* font-sizeを370px～1800pxで指定
+***************************************/
+@media (max-width: 1800px) {
+    h1 {
+        font-size: min(max(30px, calc(1.875rem + ((1vw - 3.7px) * 0.8392))), 42px);
+    }
+    h2 {
+        font-size: min(max(26px, calc(1.625rem + ((1vw - 3.7px) * 0.8392))), 38px);
+    }
+    h3 {
+        font-size: min(max(24px, calc(1.5rem + ((1vw - 3.7px) * 0.6993))), 34px);
+    }
+    h4 {
+        font-size: min(max(22px, calc(1.375rem + ((1vw - 3.7px) * 0.5594))), 30px);
+    }
+    h5 {
+        font-size: min(max(18px, calc(1.125rem + ((1vw - 3.7px) * 0.2797))), 22px);
+    }
+    h6 {
+        font-size: min(max(16px, calc(1rem + ((1vw - 3.7px) * 0.2797))), 20px);
+    }
+}
