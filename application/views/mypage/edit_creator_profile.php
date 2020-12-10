@@ -1,8 +1,8 @@
 <?php $this->load->view('elements/topmenu'); ?>
 
-<div class="main-contents container bg-success">
-  <div class="mb-4 bg-light border border-success rounded">
-    <h3 class="text-center text-dark py-2 my-3">クリエイター情報の登録・変更</h3>
+<div class="main-contents container">
+  <div class="mb-4 bg-light rounded">
+    <h3 class="text-center text-dark py-2 my-3 ">クリエイター情報の登録・変更</h3>
   
 
     <!-- ヘッダー画像変更 -->
@@ -37,11 +37,12 @@
             <!-- ユーザーネーム変更 -->
             <div class="d-flex flex-row mb-3" >
               <div class="col-6 p-2 mx-auto">
-                  <h5><a href="/users/update_username" class="text-dark font-weight-bold">ユーザーネーム</a><h5>
+                  <h4 class="font-weight-bold">ユーザーネーム</h4>
+                    <div class="col-md-5 col-sm-10 text-center alert alert-success"><a href="/users/update_username" class="text-dark text-nowrap">変更する</a></div>
               </div>
             <!-- フォロワー数表示 -->
-              <div class="col-6 mx-auto mt-2">
-                  <p>フォロワー:ｘｘ</p>
+              <div class="col mx-auto mt-3">
+                  <h6>フォロワー:xxx</h6>
               </div>
             </div>
 
@@ -88,7 +89,7 @@
         </div>
 
         <!-- 設定保存 -->
-        <div class="text-center my-5">
+        <div class="text-center py-5">
           <button type="button" class="btn btn-danger w-25 mr-5">キャンセル</button>
           <button type="submit" class="btn btn-success w-25 ml-5">保存</button>
         </div>
