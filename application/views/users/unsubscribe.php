@@ -8,7 +8,7 @@
             <h5 class="text-center">購入した商品も閲覧できなくなります。</h5>
 
             <!-- 退会理由入力欄 -->
-            <form>
+            <form method="POST" action="#">
                 <div class="form-row text-left justify-content-center my-5">
                     <div class="col-sm-5">
                         <div class="form-group">
@@ -16,10 +16,11 @@
                         </div>
                     </div>
                 </div>
-            </form>
+            
 
-            <div class="text-center my-5">
-                <a href="/top/index" class="btn btn-primary w-25 text-center mx-auto">退会する</a>
-            </div>
+                <div class="text-center my-5">
+                    <a href="/top/index" class="btn btn-primary w-25 text-center mx-auto">退会する</a>
+                </div>
+            </form>
         </div>
     </div>

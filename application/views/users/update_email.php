@@ -18,8 +18,8 @@
             </div>
 
             <div class="text-center my-5">
-                <a href=/users/settings><button type="button" class="btn btn-danger w-25 mr-5">キャンセル</button></a>
-                <button type="submit" formaction="/users/settings" class="btn btn-success w-25 ml-5">保存</button>
+                <a href=/users/settings><button type="button" class="btn btn-danger mr-5 ">キャンセル</button></a>
+                <button type="submit" formaction="/users/settings" class="btn btn-success ml-5 ">保存</button>
             </div>
         </form>
     </div>

@@ -87,7 +87,7 @@
             </div>
 
             <!-- 以前の通知を表示（スクロールで読み込む） -->
-            <div class="text-white bg-dark text-center">
+            <div class="alert alert-success text-center">
                 <h5>以前の通知を表示する</h5>
             </div>
         

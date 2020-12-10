@@ -88,4 +88,116 @@
         </div>
 
 
+        <!-- コメント -->
+        <h4 class="text-center font-weight-bold p-3">コメント</h4>
+        <div class="list-group">
+
+            <!-- 1人目のコメント -->
+            <div class="card mb-3 list-group-item">
+                <div class="card-body">
+                    <div class="row">
+                        <!-- アイコン画像 -->
+                        <div class="d-flex justify-content-start pl-3">
+                            <a href="/creator?id={id}"><img src="/assets/image/1/icon/5fa2c65bbb3d5.png" class="card-img img-thumbnail rounded-circle w-50 my-auto " alt="icon_image"></a>
+                        </div>
+
+                        <div class="row col-md pt-4">    
+                            <!-- ユーザーネーム -->
+                            <div class="col-sm-7">
+                            <a href="/creator?id={id}" class="text-dark"><h5 class="card-text font-weight-bold p-2">ユーザーネーム</h5></a>
+                            </div>
+                            <!-- 日付 -->
+                            <div class="col-sm py-2 px-4">
+                            <?php $day = new DateTime();
+                            echo $day->format('Y/m/d'); ?>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- コメント内容 -->
+                    <div class="row p-1 mt-2">
+                        <div class="col-md d-flex align-items-start flex-column bd-highlight mb-3"> 
+                        <p class="card-text text-muted">素晴らしい作品でした！特に○○が××するシーンではとても感動しました！これからも応援しています！素晴らしい作品でした！特に○○が××するシーンではとても感動しました！これからも応援しています！</p>
+                        </div>
+                    </div>                    
+                        
+                    <!-- 通報ボタン -->
+                    <a href="/mypage/comment_report"><button type="button" class="btn btn-outline-danger">通報する</button></a>      
+                </div>
+            </div>
+
+
+             <!-- 2人目のコメント -->
+             <div class="card mb-3 list-group-item">
+                <div class="card-body">
+                    <div class="row">
+                        <!-- アイコン画像 -->
+                        <div class="d-flex justify-content-start pl-3">
+                            <a href="/creator?id={id}"><img src="/assets/image/1/icon/5fa2c65bbb3d5.png" class="card-img img-thumbnail rounded-circle w-50 my-auto " alt="icon_image"></a>
+                        </div>
+
+                        <div class="row col-md pt-4">    
+                            <!-- ユーザーネーム -->
+                            <div class="col-sm-7">
+                            <a href="/creator?id={id}" class="text-dark"><h5 class="card-text font-weight-bold p-2">ユーザーネーム</h5></a>
+                            </div>
+                            <!-- 日付 -->
+                            <div class="col-sm py-2 px-4">
+                            <?php $day = new DateTime();
+                            echo $day->format('Y/m/d'); ?>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- コメント内容 -->
+                    <div class="row p-1 mt-2">
+                        <div class="col-md d-flex align-items-start flex-column bd-highlight mb-3"> 
+                        <p class="card-text text-muted">素晴らしい作品でした！特に○○が××するシーンではとても感動しました！これからも応援しています！素晴らしい作品でした！特に○○が××するシーンではとても感動しました！これからも応援しています！</p>
+                        </div>
+                    </div>                    
+                        
+                    <!-- 通報ボタン -->
+                    <a href="/mypage/comment_report"><button type="button" class="btn btn-outline-danger">通報する</button></a>  
+                </div>
+            </div>
+
+            <!-- 3人目のコメント -->
+            <div class="card mb-3 list-group-item">
+                <div class="card-body">
+                    <div class="row">
+                        <!-- アイコン画像 -->
+                        <div class="d-flex justify-content-start pl-3">
+                            <a href="/creator?id={id}"><img src="/assets/image/1/icon/5fa2c65bbb3d5.png" class="card-img img-thumbnail rounded-circle w-50 my-auto " alt="icon_image"></a>
+                        </div>
+
+                        <div class="row col-md pt-4">    
+                            <!-- ユーザーネーム -->
+                            <div class="col-sm-7">
+                            <a href="/creator?id={id}" class="text-dark"><h5 class="card-text font-weight-bold p-2">ユーザーネーム</h5></a>
+                            </div>
+                            <!-- 日付 -->
+                            <div class="col-sm py-2 px-4">
+                            <?php $day = new DateTime();
+                            echo $day->format('Y/m/d'); ?>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- コメント内容 -->
+                    <div class="row p-1 mt-2">
+                        <div class="col-md d-flex align-items-start flex-column bd-highlight mb-3"> 
+                        <p class="card-text text-muted">素晴らしい作品でした！特に○○が××するシーンではとても感動しました！これからも応援しています！素晴らしい作品でした！特に○○が××するシーンではとても感動しました！これからも応援しています！</p>
+                        </div>
+                    </div>                    
+                        
+                    <!-- 通報ボタン -->
+                    <a href="/mypage/comment_report"><button type="button" class="btn btn-outline-danger">通報する</button></a>      
+                </div>
+            </div>
+
+
+        <!-- 仮・もっと見るボタン -->
+        <button type="button" class="btn alert alert-success mb-5">もっと見る</button>
+
+        </div>
     </div>

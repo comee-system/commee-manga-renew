@@ -3,19 +3,19 @@
   <div class="main-contents container">
     <div class="shadow-lg p-3 mb-5 bg-white rounded">
 
-        <div class="text-center my-5">
-          <h1>COMEEに登録する</h1>
-        </div>
+      <div class="text-center my-5">
+        <h2>COMEEに登録する</h2>
+      </div>
 
         <form method="POST" action="#">
-            <div class="form-row text-left justify-content-center">
-                <label class="col-sm-9 col-sm-offset-2"> メールアドレス <span class="badge badge-danger">必須</span></label>
-                <div class="col-sm-9">
-                  <p>
-                    <input type="email" name="email" autocomplete="email" class="form-control " placeholder="メールアドレス" required />
-                  </p>
-                </div>
-              </div>
+          <div class="form-row text-left justify-content-center">
+            <label class="col-sm-9 col-sm-offset-2"> メールアドレス <span class="badge badge-danger">必須</span></label>
+            <div class="col-sm-9">
+              <p>
+                <input type="email" name="email" autocomplete="email" class="form-control " placeholder="メールアドレス" required />
+              </p>
+            </div>
+          </div>
             
             <div class="form-row text-left justify-content-center">
               <label class="col-sm-9 col-sm-offset-2">パスワード <span class="badge badge-danger">必須</span><br>
@@ -199,20 +199,32 @@
             </div>
 
             <div class="text-center my-5">
-              <button type="submit" class="btn btn-success w-50 mb-5">登録する</button>
+              <button type="submit" class="btn btn-success w-25 mb-5">登録する</button>
             </div>
         </form>
 
       <div class="text-center my-5 p-4">
-          <h3>ソーシャルアカウントで登録</h3>
-        <div class="btn d-flex justify-content-around">
+          <h4>ソーシャルアカウントで登録</h4>
+
+        <div class="text-center col-md-9 mx-auto">
+          <div class="row d-flex justify-content-center">
+              <button type="button" class="btn btn-primary btn-sm col-4 mx-1 my-2"><i class="fab fa-twitter"> Twitter</i></button>
+              <button type="button" class="btn btn-dark btn-sm col-4 mx-1 my-2"><i class="fab fa-facebook-f"> Facebook</i></button>
+          </div>
+          <div class="row d-flex justify-content-center">
+              <button type="button" class="btn btn-danger btn-sm col-4 mx-1"><i class="fab fa-google"> Google </i></button>
+              <button type="button" class="btn btn-success btn-sm col-4 mx-1"><i class="fab fa-line"> LINE</i></button>
+          </div>
+        </div>
+
+        <!-- <div class="btn d-flex justify-content-around">
           <button type="button" class="btn btn-primary w-50 m-4"> <i class="fab fa-twitter">　Twitter</i></button>
           <button type="button" class="btn btn-dark w-50 m-4"><i class="fab fa-facebook-f">　Facebook</i></button>
           </div>
         <div class="btn d-flex justify-content-around">
           <button type="button" class="btn btn-danger w-50 m-4"><i class="fab fa-google">　Google</i></button>
           <button type="button" class="btn btn-success w-50 m-4"><i class="fab fa-line">　LINE　　</i></button>
-        </div>
+        </div> -->
         <div class="m-3"></div>
       </div>
 
