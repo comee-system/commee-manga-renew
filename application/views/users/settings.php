@@ -50,29 +50,32 @@
                 <span>1234abcd</span>
             </div>
             <div class="list-group-item d-flex bd-highlight mb-3 align-items-center">
-                <div class="p-2 bd-highlight">年齢制限作品の表示</div>
-                    <div class="p-2 bd-highlight">
-                        <i class="far fa-question-circle" data-toggle="modal" role="button" data-target="#exampleModal"></i>
-                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">年齢制限作品の表示について</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <div class="modal-body">
+                <div class="p-2 bd-highlight">
+                    年齢制限作品の表示
+                </div>
+                <div class="p-2 bd-highlight">
+                    <!-- 年齢制限作品の表示についてのModal -->
+                    <i class="far fa-question-circle" data-toggle="modal" role="button" data-target="#age_restriction"></i>
+                        <div class="modal fade" id="age_restriction" tabindex="-1" aria-labelledby="age_restrictionLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">年齢制限作品の表示について</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
                                         年齢制限のある作品は以下のような表現を含む作品を示します。(※詳細未定) 
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">閉じる</button>
-                                        </div>
+                                    </div>
+                                    <div class="modal-footer justify-content-around">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">閉じる</button>
                                     </div>
                                 </div>
                             </div>
-                    </div>
-                <div class="ml-auto p-2 bd-highlight">
+                        </div>
+                </div>
+                <div class="p-2 bd-highlight ml-auto">
                     <input type="checkbox" checked data-toggle="toggle" data-style="ios">
                 </div>
             </div>

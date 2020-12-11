@@ -36,21 +36,73 @@
             </div>
         </div>
 
+
         <!-- 支援ボタン -->
-        <div class="alert alert-success my-3" role="alert">
+        <div class="alert alert-success my-4" role="alert">
             <h4 class="alert-heading text-center">あなたの応援が作品を描く支えになります。</h4>
-            <hr>
             <div class="text-center">
-                <button type="button" class="btn btn-success btn-lg">
-                    <h5 class="">支援する</h5>
-                </button>
+                <button type="button" class="btn btn-success btn-lg mt-2" data-toggle="modal" data-target="#supportModal">支援する</button>
             </div>
         </div>
 
-        <!-- 連載作品一覧 -->
-        <div class="border">
+        <!-- 支援用Modal -->
+        <div class="modal" id="supportModal" tabindex="-1" aria-labelledby="supportModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="supportModalLabel">クリエイターを支援する</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
 
-            <div class="border p-3">
+                    <!-- 入力フォーム -->
+                    <form method="POST" action="#">
+
+                        <div class="modal-body">
+                            <!-- 支援金額を選択 -->
+                            <div class="row d-flex justify-content-around">
+                                <div class="btn btn-group-toggle" data-toggle="buttons">
+
+                                    <label class="btn btn-outline-success mt-1 "><input type="radio" name="options" id="option1" autocomplete="off" checked>100円</label>
+
+                                    <label class="btn btn-outline-success mt-1 "><input type="radio" name="options" id="option1" autocomplete="off" checked>500円</label>
+
+                                    <label class="btn btn-outline-success mt-1 "><input type="radio" name="options" id="option1" autocomplete="off" checked>1000円</label>
+
+                                    <label class="btn btn-outline-success mt-1 "><input type="radio" name="options" id="option1" autocomplete="off" checked>3000円</label>
+                                    <!-- "任意"を押すと金額入力に変更する動きは、topmenuの検索バーを参考に後で作る -->
+                                    <label class="btn btn-outline-success mt-1 "><input type="radio" name="options" id="option1" autocomplete="off" checked>任意(金額を入力)</label>
+                                </div>
+                            </div>
+                            <!-- メッセージを入力 -->
+                            <div class="form-row text-left justify-content-center my-3">
+                                <div class="col-sm-10">
+                                    <h5 class="text-dark">メッセージ<small>（絵文字使用可）</small></h5>
+                                    <div class="form-group">
+                                        <textarea rows="7" id="textarea1" class="form-control" placeholder="メッセージを入力してください" ></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="modal-footer justify-content-around">
+                            <!-- 送信/キャンセル -->
+                            <button type="button" class="btn btn-danger border border-dark text-center ml-3" data-dismiss="modal">キャンセル</button></a>
+                            <button type="submit" class="btn btn-success text-center mr-3">支援する</button>
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- 連載作品一覧 -->
+        <div class="border my-3">
+
+            <div class="p-3">
                 <div class="row no-gutters bg-light position-relative">
                     <div class="col-md-6 mb-md-0 p-md-4">
                         <img src="/assets/image/5/detail/17/thum/s_5f719079b5045.jpg" class="w-100" alt="画像/サムネイル">
@@ -65,7 +117,7 @@
                 </div>
             </div>
 
-            <div class="border p-3">
+            <div class="p-3">
                 <div class="row no-gutters bg-light position-relative">
                     <div class="col-md-6 mb-md-0 p-md-4">
                         <img src="/assets/image/5/detail/17/thum/s_5f719079b5045.jpg" class="w-100" alt="画像/サムネイル">
@@ -80,7 +132,7 @@
                 </div>
             </div>
 
-            <div class="border p-3">
+            <div class="p-3">
                 <div class="row no-gutters bg-light position-relative">
                     <div class="col-md-6 mb-md-0 p-md-4">
                         <img src="/assets/image/5/detail/17/thum/s_5f719079b5045.jpg" class="w-100" alt="画像/サムネイル">
@@ -97,7 +149,7 @@
 
             <!-- もっと見るボタン -->
             <div class="text-center my-3">
-                <button type="button" class="ncss btn-success btn-lg">もっと見る</button>
+                <button type="button" class="btn btn-success btn-lg">もっと見る</button>
             </div>
 
         </div>
