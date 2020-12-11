@@ -178,8 +178,8 @@
 
                                 <!-- キャンセル・確定ボタン -->
                                 <div class="row justify-content-around">
-                                    <input class="btn btn-danger w-25 mt-3" type="reset" value="キャンセル">
-                                    <a class="btn btn-success w-25 mt-3" href="/users/settings" type="submit" role="button">保存</a>
+                                    <input class="btn btn-danger btnflex mt-3" type="reset" value="キャンセル">
+                                    <a class="btn btn-success mt-3 btnflex" href="/users/settings" type="submit" role="button">保存</a>
                                 </div>
                         </form>
                     </div>

@@ -164,7 +164,7 @@
                     <!-- B.連載がひとつもない場合 -->
                     <!-- 連載を追加（ボタン）-->
                     <div class="form-group text-center my-5">
-                        <a href="/manga/regist_serial"><button type="button" class="btn btn-success w-25 text-nowrap">連載を追加</button></a>
+                        <a href="/manga/regist_serial"><button type="button" class="btn btn-success btnflex">連載を追加</button></a>
                     </div>
                     
                     <!-- 以上 -->
@@ -185,22 +185,21 @@
                     <!-- 価格を入力 -->
                     <div class="form-group row mb-5">
                         <label for="price" class="col-3 col-form-label bg-light border">価格</label>
-                        <div class="col-8">
+                        <div class="col-7">
                         <input type="number" id="price" class="form-control" placeholder="ここに入力">
                         </div>
                         <label class="col-1 col-form-label">円</label>
                     </div>
+                    <!-- 以上、有料を選択した場合のみ -->
 
-                    <!-- 以上 -->
-
-
-                    <hr> <!-- 公開範囲 -->
+                    <hr>
+                    <!-- 公開範囲 -->
                     <div class="form-group row">
                         <h5 class="col-4 my-3">公開範囲</h5>
                     </div>
                     <!-- 公開範囲を選択 -->
                     <div class="form-group row mb-5">
-                        <label for="select_public" class="col-3 col-form-label bg-light border">連載を選択</label>
+                        <label for="select_public" class="col-3 col-form-label bg-light border text-nowrap">連載を選択</label>
                         <div class="col-9">
                             <select title="公開範囲を選択"  name="select_public" id="select_public" class="form-control"  autocomplete="" aria-describedby="">
                                 <option selected value="01">公開</option>
@@ -210,8 +209,7 @@
                     </div>
 
                     <hr>
-
-                   <!-- サムネイル画像とリード文 -->
+                    <!-- サムネイル画像とリード文 -->
                     <div class="d-md-flex flex-row justify-content-center mt-4">
                         <!-- サムネイル画像を選択 -->
                         <div class="form-group mb-4">
@@ -225,7 +223,6 @@
                             </div>
                         </div>
 
- 
                         <!-- リード文を入力 -->
                         <div class="form-group col">
                             <textarea rows="8" id="leadtext" class="form-control col w-100" placeholder="ここにリード文を入力" ></textarea>
@@ -233,10 +230,10 @@
                     </div>
 
                     <!-- 投稿する -->
-                    <div class="form-group text-center my-5">
-                        <button type="submit" class="btn btn-success w-25">投稿する</button>
+                    <div class="form-group my-5 d-flex justify-content-around">
+                        <a href="/creator/manga?id={id}"><button type="button" class="btn btn-danger btnflex">キャンセル</button></a>
+                        <input type="submit" value="投稿する" formaction="/creator/manga?id={id}" class="btn btn-success btnflex">
                     </div>
-    
                 </div>
             </form>
         </div>

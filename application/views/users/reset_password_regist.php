@@ -26,7 +26,7 @@
      </div>
     
       <div class="text-center my-5">
-        <button type="submit" class="btn btn-success w-25 mr-5">設定</button>
+        <input type="submit" value="設定" class="btn btn-success w-25 mr-5">
       </div>
   
     </form>
