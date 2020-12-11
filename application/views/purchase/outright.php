@@ -1,6 +1,11 @@
+<!-- Top Nav -->
+<nav class="navbar navbar-expand navbar-light bg-transparent">
+		<a class="navbar-brand text-success" href="/">Comee</a>
+</nav> 
+
 <div class="main-contents container">
-  <div class="shadow-lg p-3 mb-5 bg-white rounded">
-    <h3 class="text-center text-dark p-2 my-2 ">連載の買い切り</h3>
+  <div class="shadow-lg p-3 bg-white rounded">
+    <h3 class="text-center text-dark p-2 my-2">連載の買い切り</h3>
 
       <!-- 以下、記事情報表示画面 -->
         <div class="row col py-4 justify-content-center">
@@ -59,9 +64,9 @@
         </div>
 
         <!-- 購入する -->
-        <div class="text-center py-2">
-          <input input type="submit" value="購入する" class="btn btn-success mr-5">
-          <a href="/creator/manga?id={id}"><button type="button" class="btn btn-danger ml-5">キャンセル</button></a>
+        <div class="py-5 row justify-content-around">
+            <a href="/creator/manga?id={id}"><button type="button" class="btn btn-danger ml-5 btnflex">キャンセル</button></a>
+            <input input type="submit" value="購入する" class="btn btn-success mr-5 btnflex">
         </div>
 
     </form>

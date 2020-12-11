@@ -17,11 +17,11 @@
                 </div>
             </div>
 
-            <div class="text-center my-5">
-                <a href=/users/settings><button type="button" class="btn btn-danger mr-5 ">キャンセル</button></a>
-                <button type="submit" formaction="/users/settings" class="btn btn-success ml-5 ">保存</button>
-            </div>
+            <!-- 設定保存 -->
+                  <div class="py-2 mb-4 row justify-content-around">
+                    <a href="/users/settings"><button type="button" class="btn btn-danger btnflex">キャンセル</button></a>
+                    <input type="submit" value="保存" formaction="/users/settings" class="btn btn-success btnflex">
+                </div>          
         </form>
     </div>
-
 </div>

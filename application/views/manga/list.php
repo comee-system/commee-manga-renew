@@ -106,10 +106,10 @@
             <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
                 <div class="modal-dialog modal-sm modal-dialog-centered">
                     <div class="modal-content">
-                        <a class="mx-4 p-2" href="/manga/edit?id={id}">編集する</a>
-                        <a class="mx-4 p-2" href="#">下書きに変更する</a>
+                        <a class="mx-4 p-2 mt-2 text-dark" href="/manga/edit?id={id}">編集する</a>
+                        <a class="mx-4 p-2 text-dark" href="#">下書きに変更する</a>
                         <div class="dropdown-divider"></div>
-                        <a class="mx-4 p-2" href="#">削除する</a>
+                        <a class="mx-4 p-2 mb-2 text-danger" href="#">削除する</a>
                     </div>
                 </div>
             </div>
@@ -135,10 +135,10 @@
             <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
                 <div class="modal-dialog modal-sm modal-dialog-centered">
                     <div class="modal-content">
-                        <a class="mx-4 p-2" href="/manga/edit?id={id}">編集する</a>
-                        <a class="mx-4 p-2" href="#">下書きに変更する</a>
+                        <a class="mx-4 p-2 mt-2 text-dark" href="/manga/edit?id={id}">編集する</a>
+                        <a class="mx-4 p-2 text-dark" href="#">下書きに変更する</a>
                         <div class="dropdown-divider"></div>
-                        <a class="mx-4 p-2" href="#">削除する</a>
+                        <a class="mx-4 p-2 mb-2 text-danger" href="#">削除する</a>
                     </div>
                 </div>
             </div>
@@ -164,10 +164,10 @@
             <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
                 <div class="modal-dialog modal-sm modal-dialog-centered">
                     <div class="modal-content">
-                        <a class="mx-4 p-2" href="/manga/edit?id={id}">編集する</a>
-                        <a class="mx-4 p-2" href="#">下書きに変更する</a>
+                        <a class="mx-4 p-2 mt-2 text-dark" href="/manga/edit?id={id}">編集する</a>
+                        <a class="mx-4 p-2 text-dark" href="#">下書きに変更する</a>
                         <div class="dropdown-divider"></div>
-                        <a class="mx-4 p-2" href="#">削除する</a>
+                        <a class="mx-4 p-2 mt-2 text-danger" href="#">削除する</a>
                     </div>
                 </div>
             </div>

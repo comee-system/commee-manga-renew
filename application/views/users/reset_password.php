@@ -15,9 +15,9 @@
         </div>
      </div>
     
-      <div class="text-center my-5">
-        <button type="button" class="btn btn-danger w-25 mr-5">キャンセル</button>
-        <button type="submit" class="btn btn-success w-25 ml-5">送信</button>
+      <div class="text-center mb-4 row justify-content-around">
+        <button type="button" class="btn btn-danger btnflex">キャンセル</button>
+        <input type="submit" value="送信" class="btn btn-success btnflex">
       </div>
     </form>
 
