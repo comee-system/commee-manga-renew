@@ -135,21 +135,28 @@ li a.nav-link.active{
     }
 }
 
-/* screen-size < 500px の場合のbutton-sizeを指定(適用外にしたい.btnには.ncssを指定)
+/* screen-size < 500px の場合のbutton-sizeを指定
 *****************************************/
 @media (max-width: 500px) {
-    .btn:not(.ncss) {
+    .btnflex{
         width: 110px;
         height: 37px;
     } 
  }
 
- /* 501px < screen-size の場合のbutton-sizeを指定(適用外にしたい.btnには.ncssを指定)
+ /* 501px < screen-size の場合のbutton-sizeを指定
 *****************************************/
 @media (min-width: 501px) {
-    .btn:not(.ncss){ 
+    .btnflex{ 
         width: 150px;
         height: 37px;
     } 
  }
+
+/* top画面トップページカテゴリ内スライドボタンの調整
+*****************************************/
+ .carousel_btn {
+    width: 5%;
+    background-color: green;
+    }
  
