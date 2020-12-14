@@ -1,15 +1,17 @@
 <?php $this->load->view('elements/topmenu'); ?>
 
 <div class="main-contents container">
-    <div class="alert alert-secondary w-100 mx-auto text-center p-4" role="alert">アカウント設定 【生年月日の変更】</div>
-    
-    
+    <!-- 見出し -->
+    <div class="alert alert-secondary w-100 mx-auto text-center p-4" role="alert">アカウント設定 【生年月日の変更】
+    </div>
+
+        <!-- 入力フォーム -->
         <div class="shadow-lg p-3 mb-5 bg-white rounded">
             <form method="POST" action="#">
                 <div class="my-5">
-                    <div class="form-row text-left justify-content-center">
-                    <label class="col-sm-8 px-4">　生年月日</label>
-    　　　　　　　       <div class="col-sm-9 px-4">
+                    <div class="form-row text-left justify-content-around">
+                        <label class="col-sm-8 px-2">　生年月日</label>
+                        <div class="col-sm-8 px-4">
                             <select class="custom-select w-25" title="生年月日(西暦)" name="bday-year" autocomplete="bday-year">
                             <option selected="">----</option>
                             <option value="2015">2015</option>

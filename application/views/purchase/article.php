@@ -5,7 +5,7 @@
 
 <div class="main-contents container">
   <div class="shadow-lg p-3 mb-5 bg-white rounded">
-    <h3 class="text-center text-dark p-2 my-2">有料記事の購入</h3>
+    <h3 class="text-center text-dark p-2 my-2">有料作品の購入</h3>
 
       <!-- 以下、記事情報表示画面 -->
         <div class="row col py-4 justify-content-center">

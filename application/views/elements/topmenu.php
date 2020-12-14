@@ -26,9 +26,9 @@
 							<div class="dropdown-divider"></div>
 							<a class="dropdown-item text-secondary" href="/manga/list">作品一覧</a>
 							<a class="dropdown-item text-secondary" href="/manga/serial_list">連載一覧</a>
-							<a class="dropdown-item text-secondary" href="/mypage/dashboard/manga_views_count">ダッシュボード</a>
+							<a class="dropdown-item text-secondary" href="/mypage/manga_views_count">ダッシュボード</a>
 							<div class="dropdown-divider"></div>
-							<a class="dropdown-item text-secondary" href="/mypage/following_list">フォロー</a>
+							<a class="dropdown-item text-secondary" href="/mypage/following_list">フォロー/フォロワー</a>
 							<a class="dropdown-item text-secondary" href="/mypage/my_list?type=bought">購入した作品</a>
 							<a class="dropdown-item text-secondary" href="/mypage/my_list?type=like">Likeした作品</a>
 							<a class="dropdown-item text-secondary" href="/mypage/subscription_list">月額会員登録中の連載</a>

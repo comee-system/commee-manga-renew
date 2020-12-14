@@ -1,9 +1,11 @@
 <?php $this->load->view('elements/topmenu'); ?>
 
 <div class="main-contents container">
-    <div class="alert alert-secondary w-100 mx-auto text-center p-4" role="alert">アカウント設定【ユーザーネームの変更】</div>
+    <!-- 見出し -->
+    <div class="alert alert-secondary w-100 mx-auto text-center p-4" role="alert">アカウント設定【ユーザーネームの変更】
+    </div>
     
-    
+    <!-- 入力フォーム -->
     <div class="shadow-lg p-3 mb-5 bg-white rounded">
         <form method="POST" action="#">
             <div class="text-center my-5">
@@ -19,9 +21,9 @@
 
 
             <!-- 設定保存 -->
-                <div class="py-2 mb-4 row justify-content-around">
-                    <a href="/users/settings"><button type="button" class="btn btn-danger btnflex">キャンセル</button></a>
-                    <input type="submit" value="保存" formaction="/users/settings" class="btn btn-success btnflex">
+                <div class="pb-2 mb-4 row justify-content-around">
+                    <a href="/users/settings"><button type="button" class="btn btn-danger btnflex ml-3">キャンセル</button></a>
+                    <input type="submit" value="保存" formaction="/users/settings" class="btn btn-success btnflex mr-3">
                 </div>
         </form>
     </div>
