@@ -16,11 +16,11 @@
                                 <div class="row mb-3">
                                     <div class="col-10 offset-1">
                                         <div class="custom-control custom-radio custom-control-inline">
-                                            <input type="radio" id="individual" name="individual" class="custom-control-input">
+                                            <input type="radio" id="individual" name="indiOrCorp" class="custom-control-input">
                                             <label class="custom-control-label" for="individual">個人</label>
                                         </div>
                                         <div class="custom-control custom-radio custom-control-inline">
-                                            <input type="radio" id="corporation" name="corporation" class="custom-control-input">
+                                            <input type="radio" id="corporation" name="indiOrCorp" class="custom-control-input">
                                             <label class="custom-control-label" for="corporation">法人</label>
                                         </div>
                                     </div>
@@ -67,7 +67,7 @@
                                     <div class="col-10 offset-1">
                                         <div class="form-group">
                                             <label for="postal_code">郵便番号(ハイフンなし半角数字)</label>
-                                                <input type="text" class="form-control" id="postal_code" name="postal_code" aria-describedby="cardHelp" placeholder="例) 0001111">
+                                                <input type="text" class="form-control" id="postal_code" name="postal_code" placeholder="例) 0001111">
                                         </div>
                                     </div>
                                 </div>
@@ -77,7 +77,7 @@
                                     <div class="col-10 offset-1">
                                         <div class="form-group">
                                             <label for="address">住所(全角)</label>
-                                                <input type="text" class="form-control" id="address" name="address" aria-describedby="cardHelp" placeholder="例) 東京都港区北青山3-1-2">
+                                                <input type="text" class="form-control" id="address" name="address" placeholder="例) 東京都港区北青山3-1-2">
                                         </div>
                                     </div>
                                 </div>
@@ -87,7 +87,7 @@
                                     <div class="col-10 offset-1">
                                         <div class="form-group">
                                             <label for="phone_number">電話番号(ハイフンなし半角数字)</label>
-                                                <input type="text" class="form-control" id="phone_number" name="phone_number" aria-describedby="cardHelp" placeholder="例) 00011112222">
+                                                <input type="text" class="form-control" id="phone_number" name="phone_number" placeholder="例) 00011112222">
                                         </div>
                                     </div>
                                 </div>
@@ -97,7 +97,7 @@
                                     <div class="col-10 offset-1">
                                         <div class="form-group">
                                             <label for="bank_name">銀行名</label>
-                                                <input type="text" class="form-control" id="bank_name" name="bank_name" aria-describedby="cardHelp" placeholder="頭文字を入力後、候補リストから選択してください">
+                                                <input type="text" class="form-control" id="bank_name" name="bank_name" placeholder="頭文字を入力後、候補リストから選択してください">
                                         </div>
                                     </div>
                                 </div>
@@ -107,7 +107,7 @@
                                     <div class="col-10 offset-1">
                                         <div class="form-group">
                                             <label for="bank_code">銀行コード(半角)</label>
-                                                <input type="text" class="form-control" id="bank_code" name="bank_code" aria-describedby="cardHelp" placeholder="自動で入力されます">
+                                                <input type="text" class="form-control" id="bank_code" name="bank_code" placeholder="自動で入力されます">
                                         </div>
                                     </div>
                                 </div>
@@ -117,7 +117,7 @@
                                     <div class="col-10 offset-1">
                                         <div class="form-group">
                                             <label for="branch_name">支店名(ゆうちょ銀行の場合はこちらを参照してください)</label>
-                                                <input type="text" class="form-control" id="branch_name" name="branch_name" aria-describedby="cardHelp" placeholder="頭文字を入力後、候補リストから選択してください">
+                                                <input type="text" class="form-control" id="branch_name" name="branch_name" placeholder="頭文字を入力後、候補リストから選択してください">
                                         </div>
                                     </div>
                                 </div>
@@ -127,7 +127,7 @@
                                     <div class="col-10 offset-1">
                                         <div class="form-group">
                                             <label for="branch_code">支店コード(半角)</label>
-                                                <input type="text" class="form-control" id="branch_code" name="branch_name" aria-describedby="cardHelp" placeholder="自動で入力されます">
+                                                <input type="text" class="form-control" id="branch_code" name="branch_name" placeholder="自動で入力されます">
                                         </div>
                                     </div>
                                 </div>
@@ -137,7 +137,7 @@
                                     <div class="col-10 offset-1">
                                         <div class="form-group">
                                             <label for="account_number">口座番号(7桁)(半角6桁の場合は先頭に0)</label>
-                                                <input type="text" class="form-control" id="account_number" name="account_number" aria-describedby="cardHelp" placeholder="例) 0000000">
+                                                <input type="text" class="form-control" id="account_number" name="account_number" placeholder="例) 0000000">
                                         </div>
                                     </div>
                                 </div>
@@ -146,11 +146,11 @@
                                 <div class="row mb-3">
                                     <div class="col-10 offset-1">
                                         <div class="custom-control custom-radio custom-control-inline">
-                                            <input type="radio" id="account_type1" name="account_type1" class="custom-control-input">
+                                            <input type="radio" id="account_type1" name="account_type" class="custom-control-input">
                                             <label class="custom-control-label" for="account_type1">普通</label>
                                         </div>
                                         <div class="custom-control custom-radio custom-control-inline">
-                                            <input type="radio" id="account_type2" name="account_type2" class="custom-control-input">
+                                            <input type="radio" id="account_type2" name="account_type" class="custom-control-input">
                                             <label class="custom-control-label" for="account_type2">当座</label>
                                         </div>
                                     </div>
@@ -161,7 +161,7 @@
                                     <div class="col-10 offset-1">
                                         <div class="form-group">
                                             <label for="account_holder">口座名義カナ</label>
-                                                <input type="text" class="form-control" id="account_holder" name="account_holder" aria-describedby="cardHelp" placeholder="例) ヤマダタロウ">
+                                                <input type="text" class="form-control" id="account_holder" name="account_holder" placeholder="例) ヤマダタロウ">
                                         </div>
                                     </div>
                                 </div>
@@ -178,8 +178,8 @@
 
                                 <!-- キャンセル・確定ボタン -->
                                 <div class="row justify-content-around">
-                                    <input class="btn btn-danger btnflex mt-3" type="reset" value="キャンセル">
-                                    <a class="btn btn-success mt-3 btnflex" href="/users/settings" type="submit" role="button">保存</a>
+                                    <a class="btn btn-danger mt-3 btnflex" href="/users/settings" type="reset">キャンセル</a>
+                                    <a class="btn btn-success mt-3 btnflex" href="/users/settings" type="submit">保存</a>
                                 </div>
                         </form>
                     </div>

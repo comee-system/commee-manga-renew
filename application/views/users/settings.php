@@ -82,6 +82,7 @@
         </div>
 
         <!-- SNS連携の選択フォーム -->
+        <!-- onにすると各SNSの認証画面に遷移し、offにすると連携が解除される -->
         <div class="list-group my-3">
             <div class="list-group-item list-group-item-secondary d-flex justify-content-between">
                 SNS連携

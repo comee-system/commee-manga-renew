@@ -8,10 +8,8 @@
                 <!-- 見出し -->
                 <div class="d-flex justify-content-center mt-3">
                     <h3 class="main-text mr-5 pt-2">連載情報</h3>
-                    <a class="btn btn-info" href="/manga/serial_list" type="button" role="button">
-                        <h5 class="pt-1">
-                            連載を見る
-                        </h5>
+                    <a class="btn btn-info btn-lg" href="/manga/serial_list" type="button">
+                        <h5 class="pt-1">連載を見る</h5>
                     </a>
                 </div>
 
@@ -24,57 +22,39 @@
                             <h5>ヘッダー画像</h5>
                         </div>
                     </div>
+                    
                     <div class="card bg-dark text-white mx-auto w-75 d-block">
-                        <img src="/assets/image/5/detail/15/thum/s_5f6f40fe94cf7.jpg" class="card-img" alt="image_phote">
+                        <img src="/assets/image/5/detail/15/thum/s_5f6f40fe94cf7.jpg" class="card-img" alt="ヘッダー画像">
                             <div class="card-img-overlay">
 
                                 <div class="row">
                                     <div class="col-5 offset-1 text-center">
-                                        <a href="/users/settings" tabindex="-1">
+                                        <a href="#" tabindex="-1">
                                             <i class="fas fa-camera fa-3x" style="color: #fff;"></i>
                                         </a>
-                                        <!-- 上記のaタグで画像選択画面に遷移するように設定する(現在はアカウント設定に飛ぶように仮設定しています。) -->
                                     </div>
 
+                                    <!-- 画像削除用ボタン➀ -->
                                     <div class="col-5 text-center">
-                                        <i class="far fa-window-close fa-3x" data-toggle="modal" data-target="#staticBackdrop"></i>
-                                            
-                                            <!-- Modal -->
-                                            <div class="modal fade" id="staticBackdrop" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                                <div class="modal-dialog">
-                                                    <div class="modal-content">
-                                                        <div class="modal-header">
-                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                                <span aria-hidden="true">&times;</span>
-                                                            </button>
-                                                        </div>
-                                                        <div class="modal-body">
-                                                            本当にこの画像を削除してもよろしいですか？
-                                                        </div>
-                                                        <div class="modal-footer d-flex justify-content-around">
-                                                            <button type="sumbit" class="btn btn-secondary" data-dismiss="modal">キャンセル</button>
-                                                            <button type="sumbit" class="btn btn-danger" data-dismiss="modal">削除する</button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                        <i class="far fa-window-close fa-3x" data-toggle="modal" data-target="#imageDelete"></i>
                                     </div>
+                                </div>   
 
-                                </div>                                
                             </div>
                     </div>
-                    
+
+            
                     <!-- 連載タイトル表示欄 -->
                     <div class="row mt-5 mb-4">
                         <div class="col-10 offset-1">
-                            <h5>連載タイトル　:　XXXXXXXXXXX</h5>
+                            <h5>連載タイトル&nbsp;&nbsp;:&nbsp;&nbsp;XXXXXXXXXXX</h5>
                         </div>
                     </div>
                     
                     <!-- 連載の説明表示欄 -->
                     <div class="row my-4">
                         <div class="col-10 offset-1">
-                            <h5 class="text-break">連載の説明文　:　XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</h5>
+                            <h5 class="text-break">連載の説明文&nbsp;&nbsp;:&nbsp;&nbsp;XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</h5>
                         </div>
                     </div>
                     
@@ -82,12 +62,12 @@
                     <!-- Button trigger modal -->
                     <div class="row my-4">
                         <div class="col-10 offset-1">
-                            <h5 class="" data-toggle="modal" data-target="#exampleModal">
-                            フォロワー数　:　XX
+                            <h5 class="text-info" data-toggle="modal" data-target="#followers">
+                            フォロワー数&nbsp;&nbsp;:&nbsp;&nbsp;XX
                             </h5>
 
-                                <!-- Follower MOdal -->
-                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <!-- Followers Modal -->
+                                <div class="modal fade" id="followers" tabindex="-1" aria-labelledby="followersLabel" aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-scrollable">
                                         <div class="modal-content">
                                             <div class="modal-header">
@@ -226,21 +206,21 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- Follower MOdal 終了-->
+                                <!-- Follower Modal 終了-->
                         </div>
                     </div>
 
                     <!-- 販売価格表示欄 -->
                     <div class="row my-3">
                         <div class="col-10 offset-1">
-                            <h5>販売価格　　　:　XX円</h5>
+                            <h5>販売価格&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;XX円</h5>
                         </div>
                     </div>
 
                     <!-- 作成日表示欄 -->
                     <div class="row my-3">
                         <div class="col-10 offset-1">
-                            <h5>作成日　　　　:　XXXX年　XX月　XX日</h5>
+                            <h5>作成日&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;XXXX年&nbsp;&nbsp;XX月&nbsp;&nbsp;XX日</h5>
                         </div>
                     </div>
 
@@ -256,34 +236,14 @@
 
                                 <div class="row">
                                     <div class="col-5 offset-1 text-center">
-                                        <a href="/users/settings" tabindex="-1">
+                                        <a href="#" tabindex="-1">
                                             <i class="fas fa-camera fa-3x" style="color: #fff;"></i>
                                         </a>
-                                        <!-- 上記のaタグで画像選択画面に遷移するように設定する(現在はアカウント設定に飛ぶように仮設定しています。) -->
                                     </div>
 
+                                    <!-- 画像削除用ボタン➁ -->
                                     <div class="col-5 text-center">
-                                        <i class="far fa-window-close fa-3x" data-toggle="modal" data-target="#staticBackdrop"></i>
-                                            
-                                            <!-- Modal -->
-                                            <div class="modal fade" id="staticBackdrop" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                                <div class="modal-dialog">
-                                                    <div class="modal-content">
-                                                        <div class="modal-header">
-                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                                <span aria-hidden="true">&times;</span>
-                                                            </button>
-                                                        </div>
-                                                        <div class="modal-body">
-                                                            本当にこの画像を削除してもよろしいですか？
-                                                        </div>
-                                                        <div class="modal-footer d-flex justify-content-around">
-                                                            <button type="sumbit" class="btn btn-secondary" data-dismiss="modal">キャンセル</button>
-                                                            <button type="sumbit" class="btn btn-danger" data-dismiss="modal">削除する</button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                        <i class="far fa-window-close fa-3x" data-toggle="modal" data-target="#imageDelete"></i>
                                     </div>
 
                                 </div>                                
@@ -309,14 +269,35 @@
                     </div>
 
                     <!-- 1行にキャンセル・編集・削除ボタンを羅列 -->
-                    <div class="row justify-content-center my-5">
-                        <a class="btn btn-danger w-25 mt-3 mx-3" href="/manga/serial_list" type="reset" role="button">キャンセル</a>
-                        <a class="btn btn-info w-25 mt-3 mx-3" href="/manga/serial_list" type="button" role="button">変更する</a>
-                        <a class="btn btn-secondary w-25 mt-3 mx-3" href="/manga/serial_list" type="reset">削除</a>
+                    <div class="row justify-content-around my-5">
+                        <a class="btn btn-danger btnflex" href="/manga/serial_list" type="reset">キャンセル</a>
+                        <a class="btn btn-info btnflex" href="/manga/serial_list" type="button">変更する</a>
+                        <a class="btn btn-secondary btnflex" href="/manga/serial_list" type="reset">削除</a>
                     </div>
 
                 </form>
                 <!-- 編集情報入力フォーム終了 -->
+            
+                <!-- 画像削除用Modal -->
+                <div class="modal fade" id="imageDelete" data-keyboard="false" tabindex="-1" aria-labelledby="imageDeleteLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body text-center" id="imageDelete">
+                                本当にこの画像を削除してもよろしいですか？
+                            </div>
+                            <div class="modal-footer d-flex justify-content-around">
+                                <button type="sumbit" class="btn btn-secondary btnflex" data-dismiss="modal">キャンセル</button>
+                                <button type="reset" class="btn btn-danger btnflex" data-dismiss="modal">削除する</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>

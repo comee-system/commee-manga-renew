@@ -3,7 +3,7 @@
     <div class="main-contents container">
 
         <div class="row">
-            <div class="col-md-8 offset-md-2">
+            <div class="col-lg-8 offset-lg-2">
 
                 <div class="shadow-lg p-3 mb-5 bg-white rounded">
 
@@ -39,11 +39,11 @@
                                 <h5>決済方法</h5>
 
                                 <!-- クレジットカードが設定されている場合 -->
-                                <h6>クレジットカード払い</h6>
+                                <p>クレジットカード払い</p>
                                 <!-- クレジットカードが未設定の場合 -->
-                                <a href="/users/update_card_information" class="text-decoration-none"><h6>クレジットカードが設定されていません</h6></a>
+                                <a href="/users/update_card_information" class="text-decoration-none">クレジットカードが設定されていません</a>
                                 <!-- クレジットカードのエラーが発生した場合 -->
-                                <a href="/users/update_card_information" class="text-decoration-none text-info"><h6>クレジットカードの変更</h6></a>
+                                <a href="/users/update_card_information" class="text-decoration-none text-info">クレジットカードの変更</a>
                             </div>
 
                         </div>
@@ -51,8 +51,8 @@
 
                     <!-- キャンセル・送信ボタン -->
                     <div class="row justify-content-around mt-5 mb-3">
-                        <a class="btn btn-danger w-25 mt-3 text-wrap" href="/creator/manga?id={id}" type="button">キャンセル</a>
-                        <a class="btn btn-success w-25 mt-3" href="/purchase/payment_complete" type="button">確定</a>
+                        <a class="btn btn-danger mt-3 btnflex" href="/creator/manga?id={id}" type="button">キャンセル</a>
+                        <a class="btn btn-success mt-3 btnflex" href="/purchase/payment_complete" type="button">確定</a>
                     </div>
 
                 </div>

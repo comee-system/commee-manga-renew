@@ -139,8 +139,11 @@ li a.nav-link.active{
 *****************************************/
 @media (max-width: 500px) {
     .btnflex{
-        width: 110px;
+        width: 105px;
         height: 37px;
+        font-size: 14px;
+        padding-left: 2px;
+        padding-right: 2px;
     } 
  }
 
@@ -148,8 +151,9 @@ li a.nav-link.active{
 *****************************************/
 @media (min-width: 501px) {
     .btnflex{ 
-        width: 150px;
+        width: 140px;
         height: 37px;
+        font-size: 16px;
     } 
  }
 
@@ -159,4 +163,21 @@ li a.nav-link.active{
     width: 5%;
     background-color: green;
     }
- 
+
+/* screen-size < 500px の場合のdashboard画面のプルダウンボタンサイズの調整
+******************************************/
+@media (max-width: 500px) {
+    .pull_btn {
+        width: 110%;
+        font-size: 12px;
+        }
+    }
+
+/* 501px < screen-size の場合のdashboard画面のプルダウンボタンサイズの調整
+*****************************************/
+@media (min-width: 501px) {
+    .pull_btn {
+        width: 90%;
+        font-size: 18px;
+        }
+    }

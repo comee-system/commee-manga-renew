@@ -7,32 +7,32 @@
             <img src="/assets/image/5/detail/16/thum/5f6ffef48c677.jpg" class="card-img-top" alt="ヘッダー画像">
             <div class="card-body">
                 <h4 class="card-title text-center">連載タイトルXXXXXXXXXXXXXXXXXXXXX</h4>
-                <div class="row card-text">
-                    <div class="col-md-4 mt-3">
-                        <div class="d-flex bd-highlight mb-3">
-                            <div class="p-2 bd-highlight">
-                                <img src="/assets/image/5/announce/49/xs_5f6f3e6306856.jpg" class="rounded-circle" alt="アイコン">
-                            </div>
-                            <div class="p-2 bd-highlight mt-5">ユーザーネーム</div>
-                        </div>
-                    </div>
-                    <div class="col-md-8">
-                        <p class="">連載の説明XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
-                        <div class="row mt-3">
-                            <div class="d-flex bd-highlight mb-3">
-                                <div class="p-2 bd-highlight">
-                                    <p>フォロー：XXXX</p>
-                                    <p>フォロワー：XXXX</p>
-                                </div>
-                                <div class="p-2 bd-highlight">
-                                    <!-- <a class="btn btn-primary my-2" href="#" role="button">フォロー</a> -->
-                                    <!-- <p class="mt-3">連載をすべて購入する<span class="text-info">&nbsp;¥2,980</span></p> -->
-                                    <p class="mt-3">月額会員に登録する<span class="text-info">&nbsp;¥500/月</span></p>
+                        <div class="row card-text">
+                            <div class="col-md-4 mt-3">
+                                <div class="d-flex bd-highlight mb-3">
+                                    <div class="p-2 bd-highlight">
+                                        <a href="/creator?id={id}"><img src="/assets/image/5/announce/49/xs_5f6f3e6306856.jpg" class="rounded-circle" alt="アイコン"></a>
+                                    </div>
+                                    <div class="p-2 bd-highlight mt-5">クリエイター名</div>
                                 </div>
                             </div>
+                            <div class="col-md-8">
+                                <p>連載の説明XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+                                    <div class="d-flex mt-3">
+                                        <div class="d-flex mb-3">
+                                            <div>
+                                                <a href="/mypage/following_list"><p>フォロー：XXXX</p></a>
+                                                <a href="/mypage/follower_list"><p>フォロワー：XXXX</p></a>
+                                            </div>
+                                            <div class="mt-3">
+                                                <!-- <button type="submit" class="btn btn-primary ml-5" role="submit">フォロー</button> -->
+                                                <!-- <a href="/purchase/article" class="ml-3">連載をすべて購入する<span class="text-info">&nbsp;¥2,980</span></a> -->
+                                                <a href="/purchase/monthly_subscription" class="ml-3">月額会員に登録する<span class="text-info">&nbsp;¥500/月</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
             </div>
         </div>
 

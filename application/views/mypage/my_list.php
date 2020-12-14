@@ -35,10 +35,10 @@
                     </div>
                     <div class="col-md-6 position-static p-4 pl-md-0">
                         <h3 class="text-left"><a href="/creator/manga?id={id}" class="text-dark">第1話：XXXXXXXXXXXXXXX</a></h4>
-                        <h5 class="mt-3"><a href="/creator?id={id}" class="text-dark">ユーザーネーム</a></h5>
+                        <h5 class="mt-3"><a href="/creator?id={id}" class="text-dark">クリエイター名</a></h5>
                         <h4 class="mt-1"><a href="/creator/serial?id={id}" class="text-dark">地縛少年花子くん</a></h4>
-                        <h5 class="mt-1">2020/12/31 0:00</h5>
-                        <h4 class="mt-3"><i class="far fa-heart">100</i></h4>
+                        <h5 class="mt-1">2020/10/31 0:00</h5>
+                        <h4 class="mt-3"><i class="far fa-heart">130</i></h4>
                     </div>
                 </div>
             </div>
@@ -50,10 +50,10 @@
                     </div>
                     <div class="col-md-6 position-static p-4 pl-md-0">
                         <h3 class="text-left"><a href="/creator/manga?id={id}" class="text-dark">第2話：XXXXXXXXXXXXXXX</a></h4>
-                        <h5 class="mt-3"><a href="/creator?id={id}" class="text-dark">ユーザーネーム</a></h5>
+                        <h5 class="mt-3"><a href="/creator?id={id}" class="text-dark">クリエイター名</a></h5>
                         <h4 class="mt-1"><a href="/creator/serial?id={id}" class="text-dark">地縛少年花子くん</a></h4>
-                        <h5 class="mt-1">2020/12/31 0:00</h5>
-                        <h4 class="mt-3"><i class="far fa-heart">100</i></h4>
+                        <h5 class="mt-1">2020/11/30 0:00</h5>
+                        <h4 class="mt-3"><i class="far fa-heart">110</i></h4>
                     </div>
                 </div>
             </div>
@@ -65,10 +65,10 @@
                     </div>
                     <div class="col-md-6 position-static p-4 pl-md-0">
                         <h3 class="text-left"><a href="/creator/manga?id={id}" class="text-dark">第3話：XXXXXXXXXXXXXXX</a></h4>
-                        <h5 class="mt-3"><a href="/creator?id={id}" class="text-dark">ユーザーネーム</a></h5>
+                        <h5 class="mt-3"><a href="/creator?id={id}" class="text-dark">クリエイター名</a></h5>
                         <h4 class="mt-1"><a href="/creator/serial?id={id}" class="text-dark">地縛少年花子くん</a></h4>
                         <h5 class="mt-1">2020/12/31 0:00</h5>
-                        <h4 class="mt-3"><i class="far fa-heart">100</i></h4>
+                        <h4 class="mt-3"><i class="far fa-heart">80</i></h4>
                     </div>
                 </div>
             </div>
@@ -80,7 +80,7 @@
                     </div>
                     <div class="col-md-6 position-static p-4 pl-md-0">
                         <h3 class="text-left"><a href="/creator/manga?id={id}" class="text-dark">第4話：XXXXXXXXXXXXXXX</a></h4>
-                        <h5 class="mt-3"><a href="/creator?id={id}" class="text-dark">ユーザーネーム</a></h5>
+                        <h5 class="mt-3"><a href="/creator?id={id}" class="text-dark">クリエイター名</a></h5>
                         <h4 class="mt-1"><a href="/creator/serial?id={id}" class="text-dark">地縛少年花子くん</a></h4>
                         <h5 class="mt-1">2021/1/30 0:00</h5>
                         <h4 class="mt-3"><i class="far fa-heart">0</i></h4>

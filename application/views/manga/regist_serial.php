@@ -12,51 +12,30 @@
 
                 <!-- ヘッダー画像選択欄 trigger modal -->
                 <div class="row mt-5">
-                    <div class="col-10 offset-1">
+                    <div class="col-md-10 offset-md-1">
                         <h5>ヘッダー画像</h5>
                     </div>
                 </div>
-                <div class="card bg-dark text-white mx-auto w-75 d-block">
+                <div class="card bg-dark text-white mx-auto d-block">
                     <img src="/assets/image/5/detail/15/thum/s_5f6f40fe94cf7.jpg" class="card-img" alt="image_phote">
                         <div class="card-img-overlay">
 
                             <div class="row">
                                 <div class="col-5 offset-1 text-center">
-                                    <a href="/users/settings" tabindex="-1">
+                                    <a href="#" tabindex="-1">
                                         <i class="fas fa-camera fa-3x" style="color: #fff;"></i>
                                     </a>
-                                    <!-- 上記のaタグで画像選択画面に遷移するように設定する(現在はアカウント設定に飛ぶように仮設定しています。) -->
                                 </div>
 
+                                <!-- 画像削除用ボタン➀ -->
                                 <div class="col-5 text-center">
-                                    <i class="far fa-window-close fa-3x" data-toggle="modal" data-target="#staticBackdrop"></i>
-                                        
-                                        <!-- Modal -->
-                                        <div class="modal fade" id="staticBackdrop" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                            <div class="modal-dialog">
-                                                <div class="modal-content">
-                                                    <div class="modal-header">
-                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                            <span aria-hidden="true">&times;</span>
-                                                        </button>
-                                                    </div>
-                                                    <div class="modal-body">
-                                                        本当にこの画像を削除してもよろしいですか？
-                                                    </div>
-                                                    <div class="modal-footer d-flex justify-content-around">
-                                                        <button type="sumbit" class="btn btn-secondary" data-dismiss="modal">キャンセル</button>
-                                                        <button type="sumbit" class="btn btn-danger" data-dismiss="modal">削除する</button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                    <i class="far fa-window-close fa-3x" data-toggle="modal" data-target="#imageDelete"></i>
                                 </div>
-
                             </div>                                
                         </div>
                 </div>
 
-                <!-- 入力フォーム➀ -->
+                <!-- 入力フォーム -->
                 <form method="POST" action="#">
                 
                     <!-- 連載タイトル入力欄 -->
@@ -81,39 +60,33 @@
 
                     <!-- 1行にキャンセル・編集・削除ボタンを羅列 -->
                     <div class="row my-2">
-                        <div class="col-10 offset-1">
+                        <div class="col-md-10 offset-md-1">
                             <h5>販売設定</h5>
+                        <!-- </div>
+                    </div> -->
+                        <div class="d-flex justify-content-around">
+                            <button type="button" class="btn btn-danger mx-2 btnflex" type="reset">無料</button>
+                            <button type="button" class="btn btn-info btnflex" type="button">有料買い切り</button>
+                            <button type="button" class="btn btn-success mx-2 btnflex" type="button">有料月額</button>
                         </div>
                     </div>
-                    <div class="row justify-content-center">
-                        <button type="button" class="btn btn-danger mt-3 mx-3"type="reset">無料</button>
-                        <button type="button" class="btn btn-info mt-3 mx-3" type="button">有料買い切り</button>
-                        <button type="button" class="btn btn-success mt-3 mx-3" type="button">有料月額</button>
-                    </div>
-
-                </form>
-                <!-- 入力フォーム➀終了 -->
-
-                <!-- 入力フォーム➁ -->
-                <!-- 販売価格入力欄 -->
-                <div class="row my-5">
-                    <div class="col-10 offset-1">
-                        <form method="POST" action="#">
-                            <div class="form-group">
-                                <div class="row d-flex justify-content-start">
-                                    <label for="price"><h5 class="pt-1 ml-3">販売価格：</h5></label>
-                                    <input type="text" class="form-control w-25" id="price">
-                                    <h5 class="pt-2 ml-2">円</h5>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
                 </div>
-                <!-- 入力フォーム➁終了 -->
 
+                    <!-- 販売価格入力欄 -->
+                    <div class="row my-5">
+                        <div class="col-10 offset-1">
+                            <form method="POST" action="#">
+                                <div class="form-group">
+                                    <div class="row d-flex justify-content-start">
+                                        <label for="price"><h5 class="pt-1 ml-3">販売価格：</h5></label>
+                                        <input type="text" class="form-control w-25" id="price">
+                                        <h5 class="pt-2 ml-2">円</h5>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
 
-                <!-- 入力フォーム➂ -->
-                <form method="POST" action="#">
 
                     <!-- 告知画像選択欄 -->
                     <div class="row mt-3">
@@ -127,36 +100,14 @@
 
                                 <div class="row">
                                     <div class="col-5 offset-1 text-center">
-                                        <a href="/users/settings" tabindex="-1">
+                                        <a href="#" tabindex="-1">
                                             <i class="fas fa-camera fa-3x" style="color: #fff;"></i>
                                         </a>
-                                        <!-- 上記のaタグで画像選択画面に遷移するように設定する(現在はアカウント設定に飛ぶように仮設定しています。) -->
                                     </div>
-
+                                    <!-- 画像削除用ボタン -->
                                     <div class="col-5 text-center">
-                                        <i class="far fa-window-close fa-3x" data-toggle="modal" data-target="#staticBackdrop"></i>
-                                            
-                                            <!-- Modal -->
-                                            <div class="modal fade" id="staticBackdrop" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                                <div class="modal-dialog">
-                                                    <div class="modal-content">
-                                                        <div class="modal-header">
-                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                                <span aria-hidden="true">&times;</span>
-                                                            </button>
-                                                        </div>
-                                                        <div class="modal-body">
-                                                            本当にこの画像を削除してもよろしいですか？
-                                                        </div>
-                                                        <div class="modal-footer d-flex justify-content-around">
-                                                            <button type="sumbit" class="btn btn-secondary" data-dismiss="modal">キャンセル</button>
-                                                            <button type="sumbit" class="btn btn-danger" data-dismiss="modal">削除する</button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                        <i class="far fa-window-close fa-3x" data-toggle="modal" data-target="#imageDelete"></i>
                                     </div>
-
                                 </div>                                
                             </div>
                     </div>
@@ -185,16 +136,35 @@
                     <div class="row">
                         <div class="col-10 offset-1">
                             <div class="row justify-content-between my-5">
-                                <a class="btn btn-danger w-25 mx-3" href="/manga/serial_list" type="reset">キャンセル</a>
-                                <a class="btn btn-info w-25 mx-3" href="/manga/serial_list" type="button">登録する</a>
+                                <a class="btn btn-danger mx-3 btnflex" href="/manga/serial_list" type="reset">キャンセル</a>
+                                <a class="btn btn-info mx-3 btnflex" href="/manga/serial_list" type="submit">登録する</a>
                             </div>
                         </div>
                     </div>
 
                 </form>
-                <!-- 入力フォーム➂終了 -->
+                <!-- 入力フォーム終了 -->
+
+                <!-- 画像削除用モーダル -->
+                <div class="modal fade" id="imageDelete" data-keyboard="false" tabindex="-1" aria-labelledby="imageDeleteLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body text-center">
+                                本当にこの画像を削除してもよろしいですか？
+                            </div>
+                            <div class="modal-footer d-flex justify-content-around">
+                                <button type="sumbit" class="btn btn-secondary" data-dismiss="modal">キャンセル</button>
+                                <button type="sumbit" class="btn btn-danger" data-dismiss="modal">削除する</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
-
     </div>
