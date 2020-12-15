@@ -181,3 +181,10 @@ li a.nav-link.active{
         font-size: 18px;
         }
     }
+
+
+/* mypage/edit_creator_profile画面アイコンサイズの調整
+*****************************************/
+.noleft{
+    padding-left: 0;
+}

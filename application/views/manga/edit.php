@@ -7,12 +7,10 @@
     <div class="shadow-lg p-3 mb-5 bg-white rounded">
 
         <!-- 見出し -->
-        <h3 class="text-center text-dark p-2 my-4">作品投稿/新規または編集</h3>
-        <div class="mt-5">
-
+        <h3 class="text-center text-dark p-2 my-3">作品投稿/新規または編集</h3>
 
         <!-- 以下、編集(/manga/edit?id={id})の場合のみ表示 -->
-        <div class="container mt-5 justify-content-center">
+        <div class="container mt-4 justify-content-center">
 
             <!-- 1枚目（表紙） -->
             <div class="row" id="manga1">
@@ -70,7 +68,7 @@
         <!-- 以上、編集(/manga/edit?id={id})の場合のみ表示 -->
 
 
-            <div class="p-5"></div>
+            <div class="p-3"></div>
             <!-- 画像を追加 このボタンを押すとディレクトリから画像を選択する-->
             <div class="alert alert-success border border-0">
                 <div class="row col-10 offset-1">
@@ -79,7 +77,7 @@
                 </div>
             </div>
 
-            <div class="p-4"></div>
+            <div class="p-3"></div>
             <h5 class="font-weight-bold ml-2 py-3">作品情報</h5>
 
             <!-- 作品情報入力 -->
@@ -87,7 +85,7 @@
                 <div class="ml-2">
                     <!-- タイトル -->
                     <div class="form-group row">
-                        <label for="title" class="col-3 col-form-label bg-light border">タイトル</label>
+                        <label for="title" class="col-3 col-form-label bg-light border text-nowrap">タイトル</label>
                         <div class="col-9">
                         <input type="text" id="title" class="form-control" placeholder="ここに入力">
                         </div>
@@ -111,7 +109,7 @@
 
                     <!-- 年齢制限（プルダウン） -->
                     <div class="form-group row">
-                        <label for="age_limit" class= "col-3 col-form-label bg-light border">年齢制限</label>
+                        <label for="age_limit" class= "col-3 col-form-label bg-light border text-nowrap">年齢制限</label>
                         <div class="col-9">
                             <select title="年齢制限"  name="age_limit" id="age_limit" class="form-control" autocomplete="" aria-describedby="">
                                 <option selected value="01">全年齢</option>
@@ -122,7 +120,7 @@
 
                     <!-- 表現内容(チェックボックス) -->
                     <div class="form-group row">
-                        <label for="contents" class="col-3 col-form-label bg-light border">表現内容</label>
+                        <label for="contents" class="col-3 col-form-label bg-light border text-nowrap">表現内容</label>
                         <div class="col-9">
                         <!-- <input type="checkbox" id="checkbox" class="form-control" checked data-toggle="toggle" data-style="ios"> -->
                             <div class="list-group-item d-flex justify-content-between align-items-center">性的表現
@@ -154,7 +152,7 @@
                     <div class="form-group row mb-5">
                         <label for="select_serial" class="col-3 col-form-label bg-light border">連載を選択</label>
                         <div class="col-9">
-                            <select title="連載を選択"  name="select_serial" id="select_serial" class="form-control"  autocomplete="" aria-describedby="">
+                            <select title="連載を選択" name="select_serial" id="select_serial" class="form-control"  autocomplete="" aria-describedby="">
                                 <option selected value="01">連載タイトル1</option>
                                 <option value="02">連載タイトル2</option>
                             </select>
@@ -186,7 +184,7 @@
                     <div class="form-group row mb-5">
                         <label for="price" class="col-3 col-form-label bg-light border">価格</label>
                         <div class="col-7">
-                        <input type="number" id="price" class="form-control" placeholder="ここに入力">
+                            <input type="number" id="price" class="form-control" placeholder="ここに入力">
                         </div>
                         <label class="col-1 col-form-label">円</label>
                     </div>
@@ -199,7 +197,7 @@
                     </div>
                     <!-- 公開範囲を選択 -->
                     <div class="form-group row mb-5">
-                        <label for="select_public" class="col-3 col-form-label bg-light border text-nowrap">連載を選択</label>
+                        <label for="select_public" class="col-3 col-form-label bg-light border">連載を選択</label>
                         <div class="col-9">
                             <select title="公開範囲を選択"  name="select_public" id="select_public" class="form-control"  autocomplete="" aria-describedby="">
                                 <option selected value="01">公開</option>
@@ -214,7 +212,7 @@
                         <!-- サムネイル画像を選択 -->
                         <div class="form-group mb-4">
                             <div class="card ml-3" style="width: 13rem; height: 13rem;">
-                            <label for="inputFile" class="card-body-top"></label>
+                                <label for="inputFile" class="card-body-top"></label>
                                 <div class="custom-file center-block">
                                     <input type="file" class="custom-file-input" id="inputFile">
                                     <label class="custom-file-label" for="inputFile" data-browse="参照">サムネイルを選択</label>
