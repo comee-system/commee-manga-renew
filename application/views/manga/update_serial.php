@@ -17,60 +17,61 @@
 
 
                     <!-- ヘッダー画像選択欄 -->
-                    <h5 class="mt-4">ヘッダー画像</h5>
+                    <h6 class="mt-4">ヘッダー画像</h6>
                     <div class="card bg-dark text-white mx-auto　d-block">
                         <img src="/assets/image/5/detail/15/thum/s_5f6f40fe94cf7.jpg" class="card-img" alt="ヘッダー画像">
                             <div class="card-img-overlay">
                                 <div class="row">
+
+                                    <!-- 画像選択用ボタン➀ -->
                                     <div class="col-5 offset-1 text-center">
-                                        <a href="#" tabindex="-1">
-                                            <i class="fas fa-camera fa-3x" style="color: #fff;"></i>
-                                        </a>
+                                        <i class="fas fa-camera fa-3x" style="color: #fff;" data-toggle="modal" data-target="#imageSelect"></i>
                                     </div>
 
                                     <!-- 画像削除用ボタン➀ -->
                                     <div class="col-5 text-center">
                                         <i class="far fa-window-close fa-3x" data-toggle="modal" data-target="#imageDelete"></i>
                                     </div>
+
                                 </div>   
                             </div>
                     </div>
 
             
                     <!-- 連載タイトル表示欄 -->
-                    <h5 class="mt-5">連載タイトル&nbsp;&nbsp;:&nbsp;&nbsp;XXXXXXXXXXX</h5>
+                    <h6 class="mt-5">連載タイトル&nbsp;&nbsp;:&nbsp;&nbsp;XXXXXXXXXXX</h6>
                     
                     <!-- 連載の説明表示欄 -->
                     <div class="mt-5">
-                        <h5>連載の説明文</h5>
-                        <h5 class="text-break">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</h5>
+                        <h6>連載の説明文</h6>
+                        <h6 class="text-break">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</h6>
                     </div>
                     
 
                     <!-- Button trigger modal -->
-                    <h5 class="text-info mt-5" data-toggle="modal" data-target="#followers">
-                        フォロワー数&nbsp;&nbsp;:&nbsp;&nbsp;XX
-                    </h5>
+                    <h6 class="mt-5" data-toggle="modal" data-target="#followers">
+                        フォロワー数&nbsp;&nbsp;:&nbsp;&nbsp;<span class="text-info">XX</span>
+                    </h6>
 
 
                     <!-- 販売価格表示欄 -->
-                    <h5 class="mt-5">販売価格&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;XX円</h5>
+                    <h6 class="mt-5">販売価格&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;XX円</h6>
 
 
                     <!-- 作成日表示欄 -->
-                    <h5 class="mt-5">作成日&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;XXXX年&nbsp;&nbsp;XX月&nbsp;&nbsp;XX日</h5>
+                    <h6 class="mt-5">作成日&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;XXXX年&nbsp;&nbsp;XX月&nbsp;&nbsp;XX日</h6>
 
                     <!-- 告知画像選択欄 -->
-                    <h5 class="mt-5">告知画像(任意)</h5>
+                    <h6 class="mt-5">告知画像(任意)</h6>
                     <div class="card bg-dark text-white mx-auto d-block">
                         <img src="/assets/image/5/detail/15/thum/5f6f40fe94cf7.jpg" class="card-img" alt="image_phote">
                             <div class="card-img-overlay">
 
                                 <div class="row">
+
+                                    <!-- 画像選択用ボタン➀ -->
                                     <div class="col-5 offset-1 text-center">
-                                        <a href="#" tabindex="-1">
-                                            <i class="fas fa-camera fa-3x" style="color: #fff;"></i>
-                                        </a>
+                                        <i class="fas fa-camera fa-3x" style="color: #fff;" data-toggle="modal" data-target="#imageSelect"></i>
                                     </div>
 
                                     <!-- 画像削除用ボタン➁ -->
@@ -84,18 +85,18 @@
 
                     <!-- 告知文言入力欄(任意) -->
                     <div class="form-group mt-5">
-                        <label for="card_name"><h5 class="mb-0">告知文言(任意)</h5></label>
+                        <label for="card_name"><h6 class="mb-0">告知文言(任意)</h6></label>
                         <input type="text" class="form-control" id="card_name" name="card_name" placeholder="新作を投稿しました！等　既述の告知文言を表示しておく">
                     </div>
 
                     <!-- 公開非公開 -->
                     <div class="d-flex justify-content-start mt-4">
-                        <h5 class="pt-2 mr-5">公開/非公開</h5>
+                        <h6 class="pt-2 mr-5">公開/非公開</h6>
                         <input type="checkbox" checked data-toggle="toggle" data-style="ios">
                     </div>
 
                     <!-- 1行にキャンセル・編集・削除ボタンを羅列 -->
-                    <div class="row justify-content-around mt-5">
+                    <div class="row justify-content-around mt-5 mb-3">
                         <a class="btn btn-danger btnflex" href="/manga/serial_list" type="reset">キャンセル</a>
                         <a class="btn btn-info btnflex" href="/manga/serial_list" type="button">変更する</a>
                         <a class="btn btn-secondary btnflex" href="/manga/serial_list" type="reset">削除</a>
@@ -103,6 +104,41 @@
 
                 </form>
                 <!-- 編集情報入力フォーム終了 -->
+
+                <!-- 画像選択用Modal -->
+                <div class="modal fade" id="imageSelect" data-keyboard="false" tabindex="-1" aria-labelledby="imageSelectLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body text-center" id="imageSelect">
+                                <form method="POST" action="#">
+                                    <div class="form-group">
+                                        <label for="formControlRange"><img src="/assets/image/5/detail/16/thum/s_5f6ffef48c677.jpg" class="w-100" alt="select_image"></label>
+                                        <div class="row mt-3">
+                                            <div class="col-2 mt-4 mx-0">
+                                                <i class="far fa-image fa-lg"></i>
+                                            </div>
+                                            <div class="col-8 pl-0 mx-0 mt-2">
+                                                <input type="range" class="form-control-range w-100 mt-3" id="formControlRange">
+                                            </div>
+                                            <div class="col-2 px-0 mt-2">
+                                                <i class="far fa-image fa-3x"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer d-flex justify-content-around">
+                                <button type="reset" class="btn btn-danger btnflex" data-dismiss="modal">キャンセル</button>
+                                <button type="submit" class="btn btn-success btnflex" data-dismiss="modal">保存する</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             
                 <!-- 画像削除用Modal -->
                 <div class="modal fade" id="imageDelete" data-keyboard="false" tabindex="-1" aria-labelledby="imageDeleteLabel" aria-hidden="true">
@@ -129,7 +165,7 @@
                     <div class="modal-dialog modal-dialog-scrollable">
                         <div class="modal-content">
 
-                            <!-- モーダルヘッダー -->
+                            <!-- Modalヘッダー -->
                             <div class="modal-header">
                                 <h5 class="modal-title" id="followers">フォロワー一覧</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -137,7 +173,7 @@
                                 </button>
                             </div>
 
-                            <!-- モーダルボディ -->
+                            <!-- Modalボディ -->
                             <div class="modal-body">
 
                                 <!-- フォロワー1 -->
@@ -264,7 +300,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- Follower Modal 終了-->
+
 
             </div>
         </div>
