@@ -33,7 +33,7 @@
         <div class="col-md-8 offset-md-2">
         <div class="d-flex justify-content-center">
         <h5 class="d-inline pt-3 mr-2 font-weight-bold">フォロー中</h5>
-        <p class="d-inline text-center pt-3"><small class="text-danger">(<button type="button" class="btn btn-success btn-sm">フォロー中</button>をクリックでフォロー解除)</small></p>
+        <p class="d-inline text-center pt-3"><small class="text-danger">&nbsp;&nbsp;(&nbsp;<button type="button" class="btn btn-success btn-sm">フォロー中</button>&nbsp;をクリックでフォロー解除)</small></p>
         </div>
             <!-- フォロワー1 -->
             <div class="media position-relative shadow my-3 p-3 border border-lg">

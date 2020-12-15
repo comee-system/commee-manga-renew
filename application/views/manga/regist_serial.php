@@ -2,99 +2,78 @@
 
     <div class="main-contents container">
 
-        <div class="row">
+        <div class="row mt-5">
             <div class="col-md-8 offset-md-2">
-
-                <!-- 見出し -->
-                <div class="d-flex justify-content-center mt-3">
-                    <h3>連載情報</h3>
-                </div>
-
-                <!-- ヘッダー画像選択欄 trigger modal -->
-                <div class="row mt-5">
-                    <div class="col-md-10 offset-md-1">
-                        <h5>ヘッダー画像</h5>
-                    </div>
-                </div>
-                <div class="card bg-dark text-white mx-auto d-block">
-                    <img src="/assets/image/5/detail/15/thum/s_5f6f40fe94cf7.jpg" class="card-img" alt="image_phote">
-                        <div class="card-img-overlay">
-
-                            <div class="row">
-                                <div class="col-5 offset-1 text-center">
-                                    <a href="#" tabindex="-1">
-                                        <i class="fas fa-camera fa-3x" style="color: #fff;"></i>
-                                    </a>
-                                </div>
-
-                                <!-- 画像削除用ボタン➀ -->
-                                <div class="col-5 text-center">
-                                    <i class="far fa-window-close fa-3x" data-toggle="modal" data-target="#imageDelete"></i>
-                                </div>
-                            </div>                                
-                        </div>
-                </div>
 
                 <!-- 入力フォーム -->
                 <form method="POST" action="#">
-                
+
+                    <!-- 大見出し -->
+                    <div class="d-flex justify-content-center mt-3">
+                        <h3>連載情報</h3>
+                    </div>
+
+        
+                    <!-- ヘッダー画像選択欄 見出し -->
+                    <h5 class="mb-2">ヘッダー画像</h5>
+
+                    <!-- ヘッダー画像 -->
+                    <div class="card bg-dark text-white mx-auto d-block">
+                        <img src="/assets/image/5/detail/15/thum/s_5f6f40fe94cf7.jpg" class="card-img" alt="image_phote">
+                            <div class="card-img-overlay">
+
+                                <div class="row">
+                                    <div class="col-5 offset-1 text-center">
+                                        <a href="#" tabindex="-1">
+                                            <i class="fas fa-camera fa-3x" style="color: #fff;"></i>
+                                        </a>
+                                    </div>
+
+                                    <!-- 画像削除用ボタン➀ -->
+                                    <div class="col-5 text-center">
+                                        <i class="far fa-window-close fa-3x" data-toggle="modal" data-target="#imageDelete"></i>
+                                    </div>
+                                </div>                                
+                            </div>
+                    </div>
+
+
                     <!-- 連載タイトル入力欄 -->
-                    <div class="row mt-5">
-                        <div class="col-10 offset-1">
-                            <div class="form-group">
-                                <label for="card_name"><h5>連載タイトル</h5></label>
-                                <input type="text" class="form-control" id="card_name" name="card_name">
-                            </div>
-                        </div>
+                    <div class="form-group mt-5 my-2">
+                        <label for="card_name"><h5 class="mb-0">連載タイトル</h5></label>
+                        <input type="text" class="form-control" id="card_name" name="card_name">
                     </div>
-                    
+        
+
                     <!-- 連載の説明入力欄 -->
-                    <div class="row my-2">
-                        <div class="col-10 offset-1">
-                            <div class="form-group">
-                                <label for="exampleFormControlTextarea1"><h5>連載の説明文</h5></label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            </div>
-                        </div>
+                    <div class="form-group mt-3">
+                        <label for="exampleFormControlTextarea1"><h5 class="mb-0">連載の説明文</h5></label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
+
 
                     <!-- 1行にキャンセル・編集・削除ボタンを羅列 -->
-                    <div class="row my-2">
-                        <div class="col-md-10 offset-md-1">
-                            <h5>販売設定</h5>
-                        <!-- </div>
-                    </div> -->
-                        <div class="d-flex justify-content-around">
-                            <button type="button" class="btn btn-danger mx-2 btnflex" type="reset">無料</button>
-                            <button type="button" class="btn btn-info btnflex" type="button">有料買い切り</button>
-                            <button type="button" class="btn btn-success mx-2 btnflex" type="button">有料月額</button>
-                        </div>
+                    <h5 class="mt-3 mb-2">販売設定</h5>
+                    <div class="d-flex justify-content-around">
+                        <button type="button" class="btn btn-danger btnflex" type="reset">無料</button>
+                        <button type="button" class="btn btn-info btnflex" type="button">有料買い切り</button>
+                        <button type="button" class="btn btn-success btnflex" type="button">有料月額</button>
                     </div>
-                </div>
+
 
                     <!-- 販売価格入力欄 -->
-                    <div class="row my-5">
-                        <div class="col-10 offset-1">
-                            <form method="POST" action="#">
-                                <div class="form-group">
-                                    <div class="row d-flex justify-content-start">
-                                        <label for="price"><h5 class="pt-1 ml-3">販売価格：</h5></label>
-                                        <input type="text" class="form-control w-25" id="price">
-                                        <h5 class="pt-2 ml-2">円</h5>
-                                    </div>
-                                </div>
-                            </form>
+                    <div class="form-group mt-4">
+                        <div class="row d-flex justify-content-start mt-3">
+                            <label for="price"><h5 class="pt-3 ml-3">販売価格：</h5></label>
+                            <input type="text" class="form-control w-25 mt-2" id="price">
+                            <h5 class="pt-3 ml-2">円</h5>
                         </div>
                     </div>
 
 
                     <!-- 告知画像選択欄 -->
-                    <div class="row mt-3">
-                        <div class="col-10 offset-1">
-                            <h5>告知画像(任意)</h5>
-                        </div>
-                    </div>
-                    <div class="card bg-dark text-white mx-auto w-75 d-block">
+                    <h5 class="mt-4">告知画像(任意)</h5>
+                    <div class="card bg-dark text-white mx-auto d-block">
                         <img src="/assets/image/5/detail/15/thum/5f6f40fe94cf7.jpg" class="card-img" alt="image_phote">
                             <div class="card-img-overlay">
 
@@ -113,34 +92,25 @@
                     </div>
 
                     <!-- 告知文言入力欄(任意) -->
-                    <div class="row mt-5 mb-2">
-                        <div class="col-10 offset-1">
-                            <div class="form-group">
-                                <label for="card_name"><h5>告知文言(任意)</h5></label>
-                                <input type="text" class="form-control" id="card_name" name="card_name">
-                            </div>
-                        </div>
+                    <div class="form-group mt-4">
+                        <label for="card_name"><h5 class="mb-0">告知文言(任意)</h5></label>
+                        <input type="text" class="form-control" id="card_name" name="card_name">
                     </div>
+
 
                     <!-- 公開非公開 -->
-                    <div class="row my-2">
-                        <div class="col-10 offset-1">
-                            <div class="d-flex justify-content-start">
-                                <h5 class="pt-1 mr-5">公開/非公開</h5>
-                                <input type="checkbox" checked data-toggle="toggle" data-style="ios">
-                            </div>
-                        </div>
+                    <div class="d-flex justify-content-start mt-4">
+                        <h5 class="pt-2 mr-5">公開/非公開</h5>
+                        <input type="checkbox" checked data-toggle="toggle" data-style="ios">
                     </div>
 
+
                     <!-- 1行にキャンセル・編集・削除ボタンを羅列 -->
-                    <div class="row">
-                        <div class="col-10 offset-1">
-                            <div class="row justify-content-between my-5">
-                                <a class="btn btn-danger mx-3 btnflex" href="/manga/serial_list" type="reset">キャンセル</a>
-                                <a class="btn btn-info mx-3 btnflex" href="/manga/serial_list" type="submit">登録する</a>
-                            </div>
-                        </div>
+                    <div class="row justify-content-between my-5">
+                        <a class="btn btn-danger ml-5 btnflex" href="/manga/serial_list" type="reset">キャンセル</a>
+                        <a class="btn btn-info mr-5 btnflex" href="/manga/serial_list" type="submit">登録する</a>
                     </div>
+
 
                 </form>
                 <!-- 入力フォーム終了 -->
