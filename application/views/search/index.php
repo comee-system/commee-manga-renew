@@ -57,5 +57,8 @@
             </div>
 
         </div>
+
+        <!-- 「もっと見る」をクリックで連載作品の続きを読み込み -->
+        <button type="button" class="btn alert alert-success w-100 mb-3">もっと見る</button>
                 
     </div>

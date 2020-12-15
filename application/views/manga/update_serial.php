@@ -1,7 +1,6 @@
 <?php $this->load->view('elements/topmenu'); ?>
 
     <div class="main-contents container">
-
         <div class="row">
             <div class="col-md-8 offset-md-2">
 
@@ -129,139 +128,139 @@
                 <div class="modal fade" id="followers" tabindex="-1" aria-labelledby="followersLabel" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-scrollable">
                         <div class="modal-content">
+
+                            <!-- モーダルヘッダー -->
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">フォロワー一覧</h5>
+                                <h5 class="modal-title" id="followers">フォロワー一覧</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
+
+                            <!-- モーダルボディ -->
                             <div class="modal-body">
+
+                                <!-- フォロワー1 -->
                                 <div class="media position-relative shadow my-2">
                                     <a href="/mypage/edit_creator_profile">
-                                        <img src="/assets/image/5/announce/49/xs_5f6f3e6306856.jpg" class="rounded-circle mr-1 p-3" alt="follower_icon">
+                                        <img src="/assets/image/5/announce/49/xs_5f6f3e6306856.jpg" class="rounded-circle py-3 px-4" alt="follower_icon">
                                     </a>
-                                        <div class="media-body">
-                                            <div class="row">
-                                                <div class="col-7">
-                                                    <a href="/mypage/edit_creator_profile" class="mt-1"><h4 class="my-3">ニックネーム</h4></a>
-                                                    <a href="/mypage/edit_creator_profile" class="mt-1"><h6>ユーザーid</h6></a>
-                                                    <a href="/mypage/edit_creator_profile" class="mt-1"><h6>プロフィール・・・</h6></a>
-                                                </div>
-                                                <div class="col-5">
-                                                    <button type="button" class="btn btn-primary btn-sm active mt-5">フォロー中</button>
-                                                </div>
+                                    <div class="media-body">
+                                        <div class="row my-2">
+                                            <div class="col-sm-8 offset-sm-2">
+                                                <a href="/mypage/edit_creator_profile"><h5 class="text-dark">クリエイター名</h5></a>
+                                                <a href="/mypage/edit_creator_profile"><h6 class="text-dark">ユーザーid</h6></a>
+                                                <a href="/mypage/edit_creator_profile"><h6 class="text-dark">プロフィール・・・</h6></a>
+                                                <button type="button" class="btn btn-primary btn-sm active">フォロー中</button>
                                             </div>
                                         </div>
+                                    </div>
                                 </div>
 
+                                <!-- フォロワー2 -->
                                 <div class="media position-relative shadow my-2">
                                     <a href="/mypage/edit_creator_profile">
-                                        <img src="/assets/image/5/announce/49/xs_5f6f3e6306856.jpg" class="rounded-circle mr-1 p-3" alt="follower_icon">
+                                        <img src="/assets/image/5/announce/49/xs_5f6f3e6306856.jpg" class="rounded-circle py-3 px-4" alt="follower_icon">
                                     </a>
-                                        <div class="media-body">
-                                            <div class="row">
-                                                <div class="col-7">
-                                                    <a href="/mypage/edit_creator_profile" class="mt-1"><h4 class="my-3">ニックネーム</h4></a>
-                                                    <a href="/mypage/edit_creator_profile" class="mt-1"><h6>ユーザーid</h6></a>
-                                                    <a href="/mypage/edit_creator_profile" class="mt-1"><h6>プロフィール・・・</h6></a>
-                                                </div>
-                                                <div class="col-5">
-                                                    <button type="button" class="btn btn-primary btn-sm active mt-5">フォロー中</button>
-                                                </div>
+                                    <div class="media-body">
+                                        <div class="row my-2">
+                                            <div class="col-sm-8 offset-sm-2">
+                                                <a href="/mypage/edit_creator_profile"><h5 class="text-dark">クリエイター名</h5></a>
+                                                <a href="/mypage/edit_creator_profile"><h6 class="text-dark">ユーザーid</h6></a>
+                                                <a href="/mypage/edit_creator_profile"><h6 class="text-dark">プロフィール・・・</h6></a>
+                                                <button type="button" class="btn btn-primary btn-sm active">フォロー中</button>
                                             </div>
                                         </div>
+                                    </div>
                                 </div>
 
+                                <!-- フォロワー3 -->
                                 <div class="media position-relative shadow my-2">
                                     <a href="/mypage/edit_creator_profile">
-                                        <img src="/assets/image/5/announce/49/xs_5f6f3e6306856.jpg" class="rounded-circle mr-1 p-3" alt="follower_icon">
+                                        <img src="/assets/image/5/announce/49/xs_5f6f3e6306856.jpg" class="rounded-circle py-3 px-4" alt="follower_icon">
                                     </a>
-                                        <div class="media-body">
-                                            <div class="row">
-                                                <div class="col-7">
-                                                    <a href="/mypage/edit_creator_profile" class="mt-1"><h4 class="my-3">ニックネーム</h4></a>
-                                                    <a href="/mypage/edit_creator_profile" class="mt-1"><h6>ユーザーid</h6></a>
-                                                    <a href="/mypage/edit_creator_profile" class="mt-1"><h6>プロフィール・・・</h6></a>
-                                                </div>
-                                                <div class="col-5">
-                                                    <button type="button" class="btn btn-primary btn-sm active mt-5">フォロー中</button>
-                                                </div>
+                                    <div class="media-body">
+                                        <div class="row my-2">
+                                            <div class="col-sm-8 offset-sm-2">
+                                                <a href="/mypage/edit_creator_profile"><h5 class="text-dark">クリエイター名</h5></a>
+                                                <a href="/mypage/edit_creator_profile"><h6 class="text-dark">ユーザーid</h6></a>
+                                                <a href="/mypage/edit_creator_profile"><h6 class="text-dark">プロフィール・・・</h6></a>
+                                                <button type="button" class="btn btn-primary btn-sm active">フォロー中</button>
                                             </div>
                                         </div>
+                                    </div>
                                 </div>
 
+                                <!-- フォロワー4 -->
                                 <div class="media position-relative shadow my-2">
                                     <a href="/mypage/edit_creator_profile">
-                                        <img src="/assets/image/5/announce/49/xs_5f6f3e6306856.jpg" class="rounded-circle mr-1 p-3" alt="follower_icon">
+                                        <img src="/assets/image/5/announce/49/xs_5f6f3e6306856.jpg" class="rounded-circle py-3 px-4" alt="follower_icon">
                                     </a>
-                                        <div class="media-body">
-                                            <div class="row">
-                                                <div class="col-7">
-                                                    <a href="/mypage/edit_creator_profile" class="mt-1"><h4 class="my-3">ニックネーム</h4></a>
-                                                    <a href="/mypage/edit_creator_profile" class="mt-1"><h6>ユーザーid</h6></a>
-                                                    <a href="/mypage/edit_creator_profile" class="mt-1"><h6>プロフィール・・・</h6></a>
-                                                </div>
-                                                <div class="col-5">
-                                                    <button type="button" class="btn btn-primary btn-sm active mt-5">フォロー中</button>
-                                                </div>
+                                    <div class="media-body">
+                                        <div class="row my-2">
+                                            <div class="col-sm-8 offset-sm-2">
+                                                <a href="/mypage/edit_creator_profile"><h5 class="text-dark">クリエイター名</h5></a>
+                                                <a href="/mypage/edit_creator_profile"><h6 class="text-dark">ユーザーid</h6></a>
+                                                <a href="/mypage/edit_creator_profile"><h6 class="text-dark">プロフィール・・・</h6></a>
+                                                <button type="button" class="btn btn-primary btn-sm active">フォロー中</button>
                                             </div>
                                         </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- フォロワー5 -->
+                                <div class="media position-relative shadow my-2">
+                                    <a href="/mypage/edit_creator_profile">
+                                        <img src="/assets/image/5/announce/49/xs_5f6f3e6306856.jpg" class="rounded-circle py-3 px-4" alt="follower_icon">
+                                    </a>
+                                    <div class="media-body">
+                                        <div class="row my-2">
+                                            <div class="col-sm-8 offset-sm-2">
+                                                <a href="/mypage/edit_creator_profile"><h5 class="text-dark">クリエイター名</h5></a>
+                                                <a href="/mypage/edit_creator_profile"><h6 class="text-dark">ユーザーid</h6></a>
+                                                <a href="/mypage/edit_creator_profile"><h6 class="text-dark">プロフィール・・・</h6></a>
+                                                <button type="button" class="btn btn-primary btn-sm active">フォロー中</button>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
 
+                                <!-- フォロワー6 -->
                                 <div class="media position-relative shadow my-2">
                                     <a href="/mypage/edit_creator_profile">
-                                        <img src="/assets/image/5/announce/49/xs_5f6f3e6306856.jpg" class="rounded-circle mr-1 p-3" alt="follower_icon">
+                                        <img src="/assets/image/5/announce/49/xs_5f6f3e6306856.jpg" class="rounded-circle py-3 px-4" alt="follower_icon">
                                     </a>
-                                        <div class="media-body">
-                                            <div class="row">
-                                                <div class="col-7">
-                                                    <a href="/mypage/edit_creator_profile" class="mt-1"><h4 class="my-3">ニックネーム</h4></a>
-                                                    <a href="/mypage/edit_creator_profile" class="mt-1"><h6>ユーザーid</h6></a>
-                                                    <a href="/mypage/edit_creator_profile" class="mt-1"><h6>プロフィール・・・</h6></a>
-                                                </div>
-                                                <div class="col-5">
-                                                    <button type="button" class="btn btn-primary btn-sm active mt-5">フォロー中</button>
-                                                </div>
+                                    <div class="media-body">
+                                        <div class="row my-2">
+                                            <div class="col-sm-8 offset-sm-2">
+                                                <a href="/mypage/edit_creator_profile"><h5 class="text-dark">クリエイター名</h5></a>
+                                                <a href="/mypage/edit_creator_profile"><h6 class="text-dark">ユーザーid</h6></a>
+                                                <a href="/mypage/edit_creator_profile"><h6 class="text-dark">プロフィール・・・</h6></a>
+                                                <button type="button" class="btn btn-primary btn-sm active">フォロー中</button>
                                             </div>
                                         </div>
+                                    </div>
                                 </div>
 
+                                <!-- フォロワー7 -->
                                 <div class="media position-relative shadow my-2">
                                     <a href="/mypage/edit_creator_profile">
-                                        <img src="/assets/image/5/announce/49/xs_5f6f3e6306856.jpg" class="rounded-circle mr-1 p-3" alt="follower_icon">
+                                        <img src="/assets/image/5/announce/49/xs_5f6f3e6306856.jpg" class="rounded-circle py-3 px-4" alt="follower_icon">
                                     </a>
-                                        <div class="media-body">
-                                            <div class="row">
-                                                <div class="col-7">
-                                                    <a href="/mypage/edit_creator_profile" class="mt-1"><h4 class="my-3">ニックネーム</h4></a>
-                                                    <a href="/mypage/edit_creator_profile" class="mt-1"><h6>ユーザーid</h6></a>
-                                                    <a href="/mypage/edit_creator_profile" class="mt-1"><h6>プロフィール・・・</h6></a>
-                                                </div>
-                                                <div class="col-5">
-                                                    <button type="button" class="btn btn-primary btn-sm active mt-5">フォロー中</button>
-                                                </div>
+                                    <div class="media-body">
+                                        <div class="row my-2">
+                                            <div class="col-sm-8 offset-sm-2">
+                                                <a href="/mypage/edit_creator_profile"><h5 class="text-dark">クリエイター名</h5></a>
+                                                <a href="/mypage/edit_creator_profile"><h6 class="text-dark">ユーザーid</h6></a>
+                                                <a href="/mypage/edit_creator_profile"><h6 class="text-dark">プロフィール・・・</h6></a>
+                                                <button type="button" class="btn btn-primary btn-sm active">フォロー中</button>
                                             </div>
                                         </div>
+                                    </div>
                                 </div>
 
-                                <div class="media position-relative shadow my-2">
-                                    <a href="/mypage/edit_creator_profile">
-                                        <img src="/assets/image/5/announce/49/xs_5f6f3e6306856.jpg" class="rounded-circle mr-1 p-3" alt="follower_icon">
-                                    </a>
-                                        <div class="media-body">
-                                            <div class="row">
-                                                <div class="col-7">
-                                                    <a href="/mypage/edit_creator_profile" class="mt-1"><h4 class="my-3">ニックネーム</h4></a>
-                                                    <a href="/mypage/edit_creator_profile" class="mt-1"><h6>ユーザーid</h6></a>
-                                                    <a href="/mypage/edit_creator_profile" class="mt-1"><h6>プロフィール・・・</h6></a>
-                                                </div>
-                                                <div class="col-5">
-                                                    <button type="button" class="btn btn-primary btn-sm active mt-5">フォロー中</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
