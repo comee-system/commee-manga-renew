@@ -8,25 +8,25 @@
             <div class="card-body">
                 <h4 class="card-title text-center">連載タイトルXXXXXXXXXXXXXXXXXXXXX</h4>
                         <div class="row card-text">
-                            <div class="col-md-4 mt-3">
+                            <div class="col-md-5 mt-3 px-0">
                                 <div class="d-flex bd-highlight mb-3">
                                     <div class="p-2 bd-highlight">
                                         <a href="/creator?id={id}"><img src="/assets/image/5/announce/49/xs_5f6f3e6306856.jpg" class="rounded-circle" alt="アイコン"></a>
                                     </div>
-                                    <div class="p-2 bd-highlight mt-5">クリエイター名</div>
+                                    <div class="bd-highlight mt-5 ml-3">クリエイター名</div>
                                 </div>
                             </div>
-                            <div class="col-md-8 p-1">
-                                <p>連載の説明XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
-                                    <div class="d-flex my-3">
-                                        <div>
+                            <div class="col-md-7 px-2">
+                                <p>連載の説明XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+                                    <div class="row my-3">
+                                        <div class="col-5 pl-3 pr-0">
                                             <a href="/mypage/following_list"><p>フォロー：XXXX</p></a>
                                             <a href="/mypage/follower_list"><p>フォロワー：XXXX</p></a>
                                         </div>
-                                        <div class="mt-3">
+                                        <div class="col-7 pr-1 pl-1 mt-3">
                                             <!-- <button type="submit" class="btn btn-primary ml-5" role="submit">フォロー</button> -->
                                             <!-- <a href="/purchase/article" class="ml-3">連載をすべて購入する<span class="text-info">&nbsp;¥2,980</span></a> -->
-                                            <a href="/purchase/monthly_subscription" class="ml-4">月額会員に登録する<span class="text-info">&nbsp;¥500/月</span></a>
+                                            <a href="/purchase/monthly_subscription">月額会員に登録する<span class="text-info">&nbsp;¥500/月</span></a>
                                         </div>
                                     </div>
                             </div>
@@ -54,7 +54,7 @@
                     </div>
                     <div class="col-md-6 position-static p-4 pl-md-0">
                         <h3 class="text-left"><a href="/creator/manga?id={id}" class="text-dark">第1話：XXXXXXXXXXXXXXX</a></h4>
-                        <h5 class="mt-3"><a href="/creator?id={id}" class="text-dark">ユーザーネーム</a></h5>
+                        <h5 class="mt-3"><a href="/creator?id={id}" class="text-dark">クリエイター名</a></h5>
                         <h4 class="mt-1"><a href="/creator/serial?id={id}" class="text-dark">地縛少年花子くん</a></h4>
                         <h5 class="mt-1">2020/12/31 0:00</h5>
                         <h4 class="mt-3"><i class="far fa-heart">100</i></h4>
@@ -69,7 +69,7 @@
                     </div>
                     <div class="col-md-6 position-static p-4 pl-md-0">
                         <h3 class="text-left"><a href="/creator/manga?id={id}" class="text-dark">第2話：XXXXXXXXXXXXXXX</a></h4>
-                        <h5 class="mt-3"><a href="/creator?id={id}" class="text-dark">ユーザーネーム</a></h5>
+                        <h5 class="mt-3"><a href="/creator?id={id}" class="text-dark">クリエイター名</a></h5>
                         <h4 class="mt-1"><a href="/creator/serial?id={id}" class="text-dark">地縛少年花子くん</a></h4>
                         <h5 class="mt-1">2020/12/31 0:00</h5>
                         <h4 class="mt-3"><i class="far fa-heart">100</i></h4>
@@ -84,7 +84,7 @@
                     </div>
                     <div class="col-md-6 position-static p-4 pl-md-0">
                         <h3 class="text-left"><a href="/creator/manga?id={id}" class="text-dark">第3話：XXXXXXXXXXXXXXX</a></h4>
-                        <h5 class="mt-3"><a href="/creator?id={id}" class="text-dark">ユーザーネーム</a></h5>
+                        <h5 class="mt-3"><a href="/creator?id={id}" class="text-dark">クリエイター名</a></h5>
                         <h4 class="mt-1"><a href="/creator/serial?id={id}" class="text-dark">地縛少年花子くん</a></h4>
                         <h5 class="mt-1">2020/12/31 0:00</h5>
                         <h4 class="mt-3"><i class="far fa-heart">100</i></h4>

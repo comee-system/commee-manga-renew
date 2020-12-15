@@ -25,8 +25,8 @@
 
                     <!-- クリエイターによって設定されているメッセージ -->
                     <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-md-10">
+                        <div class="row">
+                            <div class="col-md-8 offset-md-2 px-0">
                                 <div class="alert alert-info my-3 py-3" role="alert">
                                     <p>購入ありがとうございます！<br>
                                         とてもうれしい気持ちになります。これからも更新を頑張りますのでよろしくお願いします(^^)
@@ -39,7 +39,7 @@
 
                     <!-- このポップアップを閉じるボタン -->
                     <div class="text-center my-3">
-                        <button type="button" class="btn btn-primary mt-3 btnflex">閉じる</button>
+                        <a href="/creator/manga?id={id}" type="button" class="btn btn-primary mt-3 btnflex">閉じる</a>
                     </div>
 
                 </div>
