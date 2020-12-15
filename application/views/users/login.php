@@ -10,7 +10,7 @@
                     <button type="button" class="btn btn-primary w-75"> <i class="fab fa-twitter">　Twitterでログイン</i></button>
                 </div>
                 <div class="btn col-md-8 mx-2 mb-2">
-                    <button type="button" class="btn btn-dark w-75"><i class="fab fa-facebook-f"> Facebookでログイン</i></button>
+                    <button type="button" class="btn facebook w-75"><i class="fab fa-facebook-f"> Facebookでログイン</i></button>
                 </div>
                 <div class="btn col-md-8 mx-2 mb-2">
                     <button type="button" class="btn btn-danger w-75"><i class="fab fa-google">　Googleでログイン</i></button>

@@ -160,8 +160,8 @@ li a.nav-link.active{
 /* top画面トップページカテゴリ内スライドボタンの調整
 *****************************************/
  .carousel_btn {
-    width: 5%;
-    background-color: green;
+    width: 4%;
+    background-color: lightgray;
     }
 
 /* screen-size < 500px の場合のdashboard画面のプルダウンボタンサイズの調整
@@ -187,4 +187,88 @@ li a.nav-link.active{
 *****************************************/
 .noleft{
     padding-left: 0;
+}
+
+/* topページコンテンツの画像幅固定、左右ボタンの幅調整(画面サイズ毎)
+*****************************************/
+@media (max-width: 575px){
+    .card-img-top2 {
+        width: 7.5rem;
+        height: 5rem;
+        object-fit: cover;
+    }
+    .card-img-top3 {
+        width: 7rem;
+        object-fit: contain;
+    }
+    .carousel_btn {
+        width: 7%;
+        background-color: lightgray;
+        }
+}
+
+@media (min-width: 576px) and (max-width: 768px){
+    .card-img-top2 {
+        width: 9rem;
+        height: 6em;
+        object-fit: cover;
+    }
+    .card-img-top3 {
+        width: 8rem;
+        object-fit: contain;
+    }
+    .carousel_btn {
+        width: 5%;
+        background-color: lightgray;
+        }
+}
+
+@media (min-width: 769px) and (max-width: 1199px){
+    .card-img-top2 {
+        width: 12rem;
+        height: 8em;
+        object-fit: cover;
+    }
+    .card-img-top3 {
+        width: 10rem;
+        object-fit: contain;
+    }
+    .carousel_btn {
+        width: 3%;
+        background-color: lightgray;
+    }
+}
+
+@media (min-width: 1200px){
+    .card-img-top2 {
+        width: 15rem;
+        height: 10em;
+        object-fit: cover;
+    }
+    .card-img-top3 {
+        width: 11rem;
+        object-fit: contain;
+    }
+    .carousel_btn {
+        width: 2%;
+        background-color: lightgray;
+    }
+}
+
+/* topページコンテンツの行間調整
+*****************************************/
+.top-line-height{
+    line-height: 1.1;
+    padding: 0.8rem;
+}
+
+/* facebookアイコンの色
+*****************************************/
+.facebook{
+    color: white;
+    background-color: #3b5998;
+}
+.facebook:hover{
+    color: white;
+    background-color: #2b4270;
 }

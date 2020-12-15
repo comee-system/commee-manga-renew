@@ -216,7 +216,7 @@
         <div class="text-center col-md-9 mx-auto">
           <div class="row d-flex justify-content-center">
               <button type="button" class="btn btn-primary btn-sm col-4 mx-1 my-2"><i class="fab fa-twitter"> Twitter</i></button>
-              <button type="button" class="btn btn-dark btn-sm col-4 mx-1 my-2"><i class="fab fa-facebook-f">Facebook</i></button>
+              <button type="button" class="btn facebook btn-sm col-4 mx-1 my-2"><i class="fab fa-facebook-f">Facebook</i></button>
           </div>
           <div class="row d-flex justify-content-center">
               <button type="button" class="btn btn-danger btn-sm col-4 mx-1"><i class="fab fa-google"> Google </i></button>
