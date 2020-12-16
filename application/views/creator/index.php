@@ -4,6 +4,55 @@
 
         <!-- クリエイターのプロフィール情報 -->
 
+        <div class="card mb-3 list-group-item pb-5">
+            <!-- ヘッダー画像 -->
+            <img src="/assets/image/5/detail/15/thum/neko.png" class="card-img-top" width="auto" height="auto" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="">
+            <!-- 各種情報 -->
+                <div class="card-body pb-5">
+                    <div class="row pb-4">
+                        <div class="card-img-overlay">
+                            <div class="container d-md-none py-5"></div>
+                            <div class="container d-none d-md-block p-5 m-5"></div>
+
+                                <!-- アイコン画像 -->
+
+                                <div class="d-flex justify-content-start pl-3 d-md-none">
+                                    <a href="/creator?id={id}"><img src="/assets/image/5/announce/49/icon.png" class="card-img img-thumbnail rounded-circle w-25 my-auto " alt="icon_image"></a>
+                                </div>
+                                
+                                <div class="col-3 d-none d-md-block">
+                                    <a href="/creator?id={id}"><img src="/assets/image/5/announce/49/icon.png" class="card-img img-thumbnail rounded-circle" alt="icon_image"></a>
+                                </div>
+                            
+                                <!-- クリエイター情報 -->
+                                <div class="row align-items-center">
+                                    <div class="col-5">
+                                        <a href="/creator/serial?id={id}" class="text-dark"><h4 class="card-title font-weight-bold my-3 text-nowrap">クリエイター名</h4></a>
+                                    </div>
+                                    <div class="col align-items-center pl-5">
+                                        <a href="/mypage/following_list" class="text-dark"><h6 class="card-text p-2">フォロー　:XXX</h6></a>
+                                        <a href="/mypage/follower_list" class="text-dark"><h6 class="card-text p-2">フォロワー:XXX</h6></a>
+                                    </div>
+                                    <div class="col d-none d-md-block">
+                                        <button type="button" class="btn btn-secondary col">フォロー</button>
+                                    </div>
+                                </div>
+
+                                <!-- プロフィール -->
+                                <div class="card-body col-md pt-4 mb-5">
+                                    <p class="card-text col-md text-muted">プロフィールプロフィールプロフィールプロフィールプロフィールプロフィールプロフィールプロフィールプロフィールプロフィールプロフィールプロフィールプロフィール</p>
+                                    <div class="col-md d-md-none text-center">
+                                    <button type="button" class="btn btn-secondary w-50 ">フォロー</button>
+                                </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container p-5 m-5">
+                      
+                    </div>
+                </div>
 
         <!-- 支援ボタン -->
         <div class="alert alert-success my-4" role="alert">

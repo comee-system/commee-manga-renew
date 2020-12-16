@@ -1,5 +1,6 @@
 <div class="main-contents container">
 
+    <!-- モーダルを直接ブラウザ上に出力する方法が分からなかったので、中継の役割としてアイコンを置かせていただきました -->
     <i class="far fa-question-circle" data-toggle="modal" role="button" data-target="#supportModal"></i>
     アイコンを押すとモーダルが表示されます。
     <div class="modal" id="supportModal" tabindex="-1" aria-labelledby="supportModalLabel" aria-hidden="true">
