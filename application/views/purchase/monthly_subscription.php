@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-lg-8 offset-lg-2">
 
-                <div class="shadow-lg p-3 mb-5 bg-white rounded">
+                <div class="shadow-lg py-3 px-2 mb-5 bg-white rounded">
 
                     <!-- 見出し -->
                     <div class="text-center my-5">
@@ -16,8 +16,8 @@
 
                     <!-- コンテンツを中央寄せ -->
                     <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-md-10">
+                        <div class="row">
+                            <div class="col-md-10 offset-md-1 px-1">
 
                                 <!-- 商品名 -->
                                 <div class="text-left mt-3">
@@ -47,12 +47,15 @@
                                 </div>
 
                                 <!-- 注意事項 -->
-                                <div class="alert alert-secondary mt-4 mb-3" role="alert">
-                                    <i class="fas fa-exclamation-triangle">&nbsp;即日に課金されます。</i>
-                                    <i class="fas fa-exclamation-triangle">&nbsp;登録日の翌月同日に月額が引き落とされます。</i>
-                                    <i class="fas fa-exclamation-triangle">&nbsp;1月1日などの場合は2月28日に課金されます。</i>
+                                <div class="row">
+                                    <div class="col-md-10 offset-md-1">
+                                        <div class="alert alert-secondary mt-4 mb-3 px-1" role="alert">
+                                            <i class="fas fa-exclamation-triangle">&nbsp;即日に課金されます。</i><br>
+                                            <i class="fas fa-exclamation-triangle">&nbsp;登録日の翌月同日に月額が引き落とされます。</i>
+                                            <i class="fas fa-exclamation-triangle">&nbsp;1月1日等の場合は2月28日に課金されます。</i>
+                                        </div>
+                                    </div>
                                 </div>
-                                
                             </div>
                         </div>
                     </div>

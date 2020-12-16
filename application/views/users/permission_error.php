@@ -15,21 +15,19 @@
                         会員登録をするとご利用いただけます。
                     </h5>
 
-
-                    <dic class="container">
-                        <div class="row justify-content-around my-3">
-                            <div class="text-center">
-                                <a href="/users/regist_user" class="btn btn-success btnflex">会員登録</a>
-                            </div>
-                            <div class="text-center">
-                                <a href="/users/login" class="btn btn-primary btnflex">ログイン</a>
-                            </div>
-                            <div class="text-center">
-                                <a href="/top/index" class="btn btn-danger btnflex">キャンセル</a>
-                            </div>
+                    <!-- 会員登録・ログイン・キャンセルボタン -->
+                    <div class="row justify-content-around my-5">
+                        <div>
+                            <a href="/users/regist_user" class="btn btn-success btnflex">会員登録</a>
+                        </div>
+                        <div>
+                            <a href="/users/login" class="btn btn-primary btnflex">ログイン</a>
+                        </div>
+                        <div>
+                            <a href="/top/index" class="btn btn-danger btnflex">キャンセル</a>
                         </div>
                     </div>
-
+                
                 </div>
 
             </div>

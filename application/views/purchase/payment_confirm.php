@@ -41,9 +41,9 @@
                                 <!-- クレジットカードが設定されている場合 -->
                                 <p>クレジットカード払い</p>
                                 <!-- クレジットカードが未設定の場合 -->
-                                <a href="/users/update_card_information" class="text-decoration-none">クレジットカードが設定されていません</a>
+                                <!-- <a href="/users/update_card_information" class="text-decoration-none">クレジットカードが設定されていません</a> -->
                                 <!-- クレジットカードのエラーが発生した場合 -->
-                                <a href="/users/update_card_information" class="text-decoration-none text-info">クレジットカードの変更</a>
+                                <!-- <a href="/users/update_card_information" class="text-decoration-none text-info">クレジットカードの変更</a> -->
                             </div>
 
                         </div>
