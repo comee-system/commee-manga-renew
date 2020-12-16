@@ -242,7 +242,7 @@
                             <img src="/assets/image/5/detail/18/lists/s2_5fa4eba8aa1a8.jpg" class="w-100" alt="画像/サムネイル">
                         </div>
                         <div class="col-md-6 position-static p-4 pl-md-0">
-                            <a href="/creator/manga?id={id}"><h3 class="text-dark text-left">作品名XXXXXXXX</h4></a>
+                            <a href="/creator/manga?id={id}"><h3 class="text-dark text-left">作品名XXXXXXXX</h3></a>
                             <a href="/creator?id={id}"><h5 class="text-dark mt-3">クリエイター名</h5></a>
                             <h5 class="mt-1">2019/10/01 0:00</h5>
                             <h4 class="mt-3"><i class="far fa-heart">100</i></h4>

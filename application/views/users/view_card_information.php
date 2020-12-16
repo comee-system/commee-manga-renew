@@ -87,7 +87,7 @@
                                                     <span aria-hidden="true">&times;</span>
                                                 </button>
                                             </div>
-                                            <div class="modal-body text-center mt-2">
+                                            <div class="modal-body text-center px-2 mt-2">
                                                 本当にこのカード情報を削除してもよろしいですか？
                                                 <div class="d-flex justify-content-around">
                                                     <button type="button" class="btn btn-secondary mt-4 btnflex" data-dismiss="modal">キャンセル</button>

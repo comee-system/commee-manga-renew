@@ -10,10 +10,10 @@
                         <div class="row card-text">
                             <div class="col-md-5 mt-3 px-0">
                                 <div class="d-flex bd-highlight mb-3">
-                                    <div class="p-2 bd-highlight">
+                                    <div class="pl-4 py-2 bd-highlight">
                                         <a href="/creator?id={id}"><img src="/assets/image/5/announce/49/xs_5f6f3e6306856.jpg" class="rounded-circle" alt="アイコン"></a>
                                     </div>
-                                    <div class="bd-highlight mt-5 ml-3">クリエイター名</div>
+                                    <div class="bd-highlight pl-2 mt-5 ml-3">クリエイター名</div>
                                 </div>
                             </div>
                             <div class="col-md-7 px-2">
@@ -53,9 +53,9 @@
                         <img src="/assets/image/5/detail/17/thum/s_5f719079b5045.jpg" class="w-100" alt="画像/サムネイル">
                     </div>
                     <div class="col-md-6 position-static p-4 pl-md-0">
-                        <h3 class="text-left"><a href="/creator/manga?id={id}" class="text-dark">第1話：XXXXXXXXXXXXXXX</a></h4>
+                        <h3 class="text-left"><a href="/creator/manga?id={id}" class="text-dark">第3話：XXXXXXXXXXXXXXX</a></h4>
                         <h5 class="mt-3"><a href="/creator?id={id}" class="text-dark">クリエイター名</a></h5>
-                        <h4 class="mt-1"><a href="/creator/serial?id={id}" class="text-dark">地縛少年花子くん</a></h4>
+                        <h4 class="mt-1"><a href="/creator/serial?id={id}" class="text-dark">作品名</a></h4>
                         <h5 class="mt-1">2020/12/31 0:00</h5>
                         <h4 class="mt-3"><i class="far fa-heart">100</i></h4>
                     </div>
@@ -70,8 +70,8 @@
                     <div class="col-md-6 position-static p-4 pl-md-0">
                         <h3 class="text-left"><a href="/creator/manga?id={id}" class="text-dark">第2話：XXXXXXXXXXXXXXX</a></h4>
                         <h5 class="mt-3"><a href="/creator?id={id}" class="text-dark">クリエイター名</a></h5>
-                        <h4 class="mt-1"><a href="/creator/serial?id={id}" class="text-dark">地縛少年花子くん</a></h4>
-                        <h5 class="mt-1">2020/12/31 0:00</h5>
+                        <h4 class="mt-1"><a href="/creator/serial?id={id}" class="text-dark">作品名</a></h4>
+                        <h5 class="mt-1">2020/11/31 0:00</h5>
                         <h4 class="mt-3"><i class="far fa-heart">100</i></h4>
                     </div>
                 </div>
@@ -83,10 +83,10 @@
                         <img src="/assets/image/5/detail/17/thum/s_5f719079b5045.jpg" class="w-100" alt="画像/サムネイル">
                     </div>
                     <div class="col-md-6 position-static p-4 pl-md-0">
-                        <h3 class="text-left"><a href="/creator/manga?id={id}" class="text-dark">第3話：XXXXXXXXXXXXXXX</a></h4>
+                        <h3 class="text-left"><a href="/creator/manga?id={id}" class="text-dark">第1話：XXXXXXXXXXXXXXX</a></h4>
                         <h5 class="mt-3"><a href="/creator?id={id}" class="text-dark">クリエイター名</a></h5>
                         <h4 class="mt-1"><a href="/creator/serial?id={id}" class="text-dark">地縛少年花子くん</a></h4>
-                        <h5 class="mt-1">2020/12/31 0:00</h5>
+                        <h5 class="mt-1">2020/10/31 0:00</h5>
                         <h4 class="mt-3"><i class="far fa-heart">100</i></h4>
                     </div>
                 </div>

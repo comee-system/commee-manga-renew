@@ -92,7 +92,7 @@
         <!-- 集計項目 -->
         <div class="container">
             <div class="row">
-                <div class="col-xl-10 offset-xl-1">
+                <div class="col-xl-10 offset-xl-1 px-0">
 
                     <table class="table my-4">
                         <thead class="thead-light">

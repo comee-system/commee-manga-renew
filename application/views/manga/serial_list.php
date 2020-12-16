@@ -36,7 +36,7 @@
 
             <div class="col mb-4">
                 <div class="card">
-                    <img src="/assets/image/5/detail/18/lists/s_5fa4eba8aa1a8.jpg" class="card-img-top" alt="serial">
+                    <img src="/assets/image/5/detail/18/lists/s2_5fa4eba8aa1a8.jpg" class="card-img-top" alt="serial">
                     <div class="card-img-overlay text-right">
                         <a href="/manga/update_serial?id={id}" tabindex="-1">
                             <i class="fas fa-cog fa-4x" style="color: white;"></i>
