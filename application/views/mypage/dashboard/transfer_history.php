@@ -1,6 +1,6 @@
 <?php $this->load->view('elements/topmenu'); ?>
 
-    <div class="main-contents container">
+    <div class="main-contents container px-1">
 
         <!-- 見出し -->
         <div class="text-center my-5">
@@ -27,7 +27,7 @@
         <!-- 振込履歴一覧表 -->
         <div class="container">
             <div class="row">
-                <div class="col-md-10 offset-md-1">
+                <div class="col-md-10 offset-md-1 px-0">
 
                     <table class="table text-nowrap">
                         <thead class="thead-light">
@@ -78,12 +78,11 @@
                         </tbody>
                     </table>
 
+                    <!-- 「もっと見る」をクリックで続きを読み込み -->
+                    <button type="button" class="btn alert alert-success w-100 my-3 mb-5">もっと見る</button>
+
                 </div>
             </div>
-        </div>
-
-        <div class="text-center my-4">
-            <button type="button" class="btn btn-success btnflex">もっと見る</button>
         </div>
 
     </div>

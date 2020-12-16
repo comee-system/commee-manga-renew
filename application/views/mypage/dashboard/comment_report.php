@@ -52,8 +52,8 @@
 
                         <!-- キャンセル・送信ボタン -->
                         <div class="row justify-content-around">
-                            <a class="btn btn-success my-4 ml-3 btnflex" href="/users/settings" type="reset">キャンセル</a>
-                            <input class="btn btn-danger my-4 mr-3 btnflex" type="submit" value="送信する">   
+                            <a href="/creator/manga?id={id}" class="btn btn-success my-4 ml-3 btnflex" type="reset">キャンセル</a>
+                            <input type="submit" class="btn btn-danger my-4 mr-3 btnflex" value="送信する">
                         </div>
 
                     </form>

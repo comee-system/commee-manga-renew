@@ -100,9 +100,10 @@
                                 </tr>
                             </tbody>
                         </table>
-                        <div class="text-center my-4">
-                            <button type="button" class="btn btn-success btnflex">もっと見る</button>
-                        </div>
+                        
+                        <!-- 「もっと見る」をクリックで続きを読み込み -->
+                        <button type="button" class="btn alert alert-success w-100 my-3 mb-5">もっと見る</button>
+                        
                     </div>
                 </div>
             </div>

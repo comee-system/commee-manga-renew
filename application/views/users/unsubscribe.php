@@ -6,10 +6,10 @@
             <div class="col-lg-8 offset-lg-2">
 
                 <div class="shadow-lg p-3 mb-5 bg-white rounded my-5">
-                    <h1 class="text-center my-5 font-weight-bold">退会</h1>
-                    <h5 class="text-center">このページから退会ができます。</h5>
-                    <h5 class="text-center">退会すると、登録作品も削除され、</h5>
-                    <h5 class="text-center">購入した商品も閲覧できなくなります。</h5>
+                    <h2 class="text-center my-5 font-weight-bold">退会</h2>
+                    <h6 class="text-center">このページから退会ができます。</h6>
+                    <h6 class="text-center">退会すると、登録作品も削除され、</h6>
+                    <h6 class="text-center">購入した商品も閲覧できなくなります。</h6>
 
                     <!-- 退会理由入力欄 -->
                     <form method="POST" action="#">

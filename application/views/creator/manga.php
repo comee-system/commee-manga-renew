@@ -51,7 +51,7 @@
             <!-- 作品情報表示部分 -->
             <div class="d-flex justify-content-between bd-highlight">
                 <div class="p-2 bd-highlight ml-2">
-                    <a href="/creator/serial?id={id}"><h3 class="text-dark mb-2">連載タイトル</h3></a>
+                    <a href="/creator/serial?id={id}"><h3 class="font-weight-bold text-dark mb-2">連載タイトル</h3></a>
                     <h5>作品タイトル(例:第1話&nbsp;はじまり)</h5>
                 </div>
                 <div class="bd-highlight">
@@ -66,14 +66,14 @@
                     <div class="col-sm-3">
                         <div class="d-flex justify-content-start bd-highlight mb-1">
                             <div class="p-2 bd-highlight text-left mt-1">
-                                <a href="/creator?id={id}"><p class="text-dark my-0">ユーザーネーム</p></a>
+                                <a href="/creator?id={id}"><p class="text-dark my-0">クリエイター名</p></a>
                                 <p class="mt-1 mb-3">投稿日時XXXX/XX/XX&nbsp;XX:XX</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-9">
                         <div class="float-left mt-3 mb-2">
-                            <a class="btn btn-success" href="/manga/edit?id={id}" role="button">編集する</a>
+                            <a class="btn btn-success" href="/manga/update_serial?id={id}" role="button">編集する</a>
                         </div>
                         <div class="float-right mt-3 mb-2">
                             <a href="#"><i class="fab fa-facebook-square fa-3x mx-1" style="color:blue;"></i></a>
@@ -130,7 +130,7 @@
                     <div class="card-text">
                         <div class="d-flex justify-content-between mt-1">
                             <div class="ml-2">
-                                <h4>連載タイトル</h4>
+                                <h4 class="font-weight-bold">連載タイトル</h4>
                                 <p>作品数</p>
                             </div>
                             <div class="mr-2 mt-2">
@@ -160,7 +160,7 @@
                         <div class="col-md-9">
                             <div class="d-flex bd-highlight">
                                 <div class="py-2 flex-fill bd-highlight">
-                                    <h5 class="text-nowrap">クリエイター名</h5>
+                                    <h5 class="font-weight-bold text-nowrap">クリエイター名</h5>
                                     <p class="text-nowrap">フォロワー数</p>
                                 </div>
                                 <div class="py-2 flex-fill bd-highlight">
@@ -184,11 +184,11 @@
                             <img src="/assets/image/5/detail/17/thum/s_5f719079b5045.jpg" class="w-100" alt="画像/サムネイル">
                         </div>
                         <div class="col-md-6 position-static p-4 pl-md-0">
-                            <h3 class="text-left"><a href="/creator/manga?id={id}" class="text-dark">第1話：XXXXXXXXXXXXXXX</a></h4>
-                            <h5 class="mt-3"><a href="/creator?id={id}" class="text-dark">クリエイター名</a></h5>
-                            <h4 class="mt-1"><a href="/creator/serial?id={id}" class="text-dark">地縛少年花子くん</a></h4>
-                            <h5 class="mt-1">2020/10/31 0:00</h5>
-                            <h4 class="mt-3"><i class="far fa-heart">100</i></h4>
+                            <a href="/creator/manga?id={id}"><h3 class="text-dark text-left">第3話：XXXXXXXXXXXXXXX</h3></a>
+                            <a href="/creator?id={id}"><h5 class="text-dark mt-3">クリエイター名</h5></a>
+                            <a href="/creator/serial?id={id}"><h4 class="text-dark mt-1">作品名</h4></a>
+                            <h5 class="mt-1">2020/12/30 0:00</h5>
+                            <h4 class="mt-3"><i class="far fa-heart">80</i></h4>
                         </div>
                     </div>
                 </div>
@@ -200,11 +200,11 @@
                             <img src="/assets/image/5/detail/17/thum/s_5f719079b5045.jpg" class="w-100" alt="画像/サムネイル">
                         </div>
                         <div class="col-md-6 position-static p-4 pl-md-0">
-                            <h3 class="text-left"><a href="/creator/manga?id={id}" class="text-dark">第2話：XXXXXXXXXXXXXXX</a></h4>
-                            <h5 class="mt-3"><a href="/creator?id={id}" class="text-dark">ユーザーネーム</a></h5>
-                            <h4 class="mt-1"><a href="/creator/serial?id={id}" class="text-dark">地縛少年花子くん</a></h4>
+                            <a href="/creator/manga?id={id}"><h3 class="text-dark text-left">第2話：XXXXXXXXXXXXXXX</h3></a>
+                            <a href="/creator?id={id}"><h5 class="text-dark mt-3">クリエイター名</h5></a>
+                            <a href="/creator/serial?id={id}"><h4 class="text-dark mt-1">作品名</h4></a>
                             <h5 class="mt-1">2020/11/30 0:00</h5>
-                            <h4 class="mt-3"><i class="far fa-heart">130</i></h4>
+                            <h4 class="mt-3"><i class="far fa-heart">100</i></h4>
                         </div>
                     </div>
                 </div>
@@ -216,11 +216,11 @@
                             <img src="/assets/image/5/detail/17/thum/s_5f719079b5045.jpg" class="w-100" alt="画像/サムネイル">
                         </div>
                         <div class="col-md-6 position-static p-4 pl-md-0">
-                            <h3 class="text-left"><a href="/creator/manga?id={id}" class="text-dark">第3話：XXXXXXXXXXXXXXX</a></h4>
-                            <h5 class="mt-3"><a href="/creator?id={id}" class="text-dark">ユーザーネーム</a></h5>
-                            <h4 class="mt-1"><a href="/creator/serial?id={id}" class="text-dark">地縛少年花子くん</a></h4>
-                            <h5 class="mt-1">2020/12/31 0:00</h5>
-                            <h4 class="mt-3"><i class="far fa-heart">80</i></h4>
+                            <a href="/creator/manga?id={id}"><h3 class="text-dark text-left">第1話：XXXXXXXXXXXXXXX</h3></a>
+                            <a href="/creator?id={id}"><h5 class="text-dark mt-3">クリエイター名</h5></a>
+                            <a href="/creator/serial?id={id}"><h4 class="text-dark mt-1">地縛少年花子くん</h4></a>
+                            <h5 class="mt-1">2020/10/31 0:00</h5>
+                            <h4 class="mt-3"><i class="far fa-heart">120</i></h4>
                         </div>
                     </div>
                 </div>
@@ -232,18 +232,18 @@
 
 
             <!-- 作品一覧 -->
-            <h3 class="mt-5">このクリエイターの他の作品</h3>
+            <h3 class="font-weight-bold mt-5 mb-3">このクリエイターの他の作品</h3>
 
             <div class="border my-3">
 
                 <div class="p-3">
                     <div class="row no-gutters bg-light position-relative">
                         <div class="col-md-6 mb-md-0 p-md-4">
-                            <img src="/assets/image/5/detail/18/lists/s_5fa4eba8aa1a8.jpg" class="w-100" alt="画像/サムネイル">
+                            <img src="/assets/image/5/detail/18/lists/s2_5fa4eba8aa1a8.jpg" class="w-100" alt="画像/サムネイル">
                         </div>
                         <div class="col-md-6 position-static p-4 pl-md-0">
-                            <h3 class="text-left"><a href="/creator/manga?id={id}" class="text-dark">作品名XXXXXXXX</a></h4>
-                            <h5 class="mt-3"><a href="/creator?id={id}" class="text-dark">クリエイター名</a></h5>
+                            <a href="/creator/manga?id={id}"><h3 class="text-dark text-left">作品名XXXXXXXX</h4></a>
+                            <a href="/creator?id={id}"><h5 class="text-dark mt-3">クリエイター名</h5></a>
                             <h5 class="mt-1">2019/10/01 0:00</h5>
                             <h4 class="mt-3"><i class="far fa-heart">100</i></h4>
                         </div>
@@ -253,7 +253,71 @@
             </div>
 
             <!-- COMEEオススメ -->
-            <h3 class="mt-4">COMEEオススメ</h3>
+            <h3 class="font-weight-bold mt-5 mb-3">COMEEオススメ</h3>
+
+            <div class="card carousel p-3 border border rounded shadow mb-3">
+                <div class="carousel-inner">
+                    <div class="row flex-row flex-nowrap overflow-auto top-box mx-4">
+                        <!-- 作品1 -->
+                        <div class="card-body top-line-height">
+                            <a href=""><img src="/assets/image/5/detail/15/thum/onep.jpg" class="card-img-top2" alt="cardimg"></a>
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <!-- 作品2 -->
+                        <div class="card-body top-line-height ">
+                            <a href=""><img src="/assets/image/5/detail/15/thum/naruto.jpg" class="card-img-top2" alt="cardimg"></a>
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <!-- 作品3 -->
+                        <div class="card-body top-line-height">
+                            <a href=""><img src="/assets/image/5/detail/15/thum/hagaren.jpg" class="card-img-top2" alt="cardimg"></a>
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <!-- 作品4 -->
+                        <div class="card-body top-line-height">
+                            <a href=""><img src="/assets/image/5/detail/15/thum/slamd.jpg" class="card-img-top2" alt="cardimg"></a>
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <!-- 作品5 -->
+                        <div class="card-body top-line-height">
+                            <a href=""><img src="/assets/image/5/detail/15/thum/onep.jpg" class="card-img-top2" alt="cardimg"></a>
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <!-- 作品6 -->
+                        <div class="card-body top-line-height">
+                            <a href=""><img src="/assets/image/5/detail/15/thum/onep.jpg" class="card-img-top2" alt="cardimg"></a>
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <!-- 作品7 -->
+                        <div class="card-body top-line-height">
+                            <a href=""><img src="/assets/image/5/detail/15/thum/onep.jpg" class="card-img-top2" alt="cardimg"></a>
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <!-- 作品8 -->
+                        <div class="card-body top-line-height carousel-card2">
+                            <a href=""><img src="/assets/image/5/detail/15/thum/onep.jpg" class="card-img-top2" alt="cardimg"></a>
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                    <!-- 左右スライドボタン（未完成・動作しない） -->
+                    <a class="carousel-control-prev carousel_btn" href="#carousel-card2" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next carousel_btn" href="#carousel-card2" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
 
             <!-- 月額会員Modal -->
             <div class="modal fade" id="subscription" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="subscriptionLabel" aria-hidden="true">
@@ -266,7 +330,7 @@
                         </div>
                         <div class="modal-body text-center">
                             <p>続きを読むには月額会員登録してください。</p>
-                            <p>連載タイトル</p>
+                            <h5 class="font-weight-bold my-3">連載タイトル</h5>
                             <p>月額会員への説明(クリエイターごとに違う文言が入る)</p>
                             <div class="d-flex justify-content-around">
                                 <p>作品の残りページ数：XX</p>
@@ -291,7 +355,7 @@
                         </div>
                         <div class="modal-body text-center">
                             <p>連載のすべての作品をまとめて購入できます。</p>
-                            <p>連載タイトル</p>
+                            <h5 class="font-weight-bold my-3">連載タイトル</h5>
                             <p>月額会員への説明(クリエイターごとに違う文言が入る)</p>
                             <div class="d-flex justify-content-around">
                                 <p>XX(全作品数)</p>
