@@ -91,3 +91,184 @@ div.dropdelete a{
 li a.nav-link.active{
     background-color:#dc143c !important;
 }
+
+/* フロントページ
+**********************************************/
+.main-contents {
+    padding-top: 80px;
+}
+
+/* トグルボタン　デザイン
+*********************************************/
+.toggle.ios, .toggle-on.ios, .toggle-off.ios {
+    border-radius: 20px;
+}
+
+.toggle.ios .toggle-handle {
+    border-radius: 20px;
+}
+
+
+/* 370px < screen-size < 1800px でのfont-sizeを指定
+***************************************/
+@media (max-width: 1800px) {
+    h1 {
+        font-size: min(max(30px, calc(1.875rem + ((1vw - 3.7px) * 0.8392))), 42px);
+    }
+    h2 {
+        font-size: min(max(26px, calc(1.625rem + ((1vw - 3.7px) * 0.8392))), 38px);
+    }
+    h3 {
+        font-size: min(max(24px, calc(1.5rem + ((1vw - 3.7px) * 0.6993))), 34px);
+    }
+    h4 {
+        font-size: min(max(22px, calc(1.375rem + ((1vw - 3.7px) * 0.5594))), 30px);
+    }
+    h5 {
+        font-size: min(max(18px, calc(1.125rem + ((1vw - 3.7px) * 0.2797))), 22px);
+    }
+    h6 {
+        font-size: min(max(16px, calc(1rem + ((1vw - 3.7px) * 0.2797))), 20px);
+    }
+    p, span, div {
+        font-size: clamp(14px, calc(0.875rem + ((1vw - 3.7px) * 0.2797)), 18px);
+    }
+}
+
+/* screen-size < 500px の場合のbutton-sizeを指定
+*****************************************/
+@media (max-width: 500px) {
+    .btnflex{
+        width: 105px;
+        height: 37px;
+        font-size: 14px;
+        padding-left: 2px;
+        padding-right: 2px;
+    } 
+ }
+
+ /* 501px < screen-size の場合のbutton-sizeを指定
+*****************************************/
+@media (min-width: 501px) {
+    .btnflex{ 
+        width: 140px;
+        height: 37px;
+        font-size: 16px;
+    } 
+ }
+
+/* top画面トップページカテゴリ内スライドボタンの調整
+*****************************************/
+ .carousel_btn {
+    width: 4%;
+    background-color: lightgray;
+    }
+
+/* screen-size < 500px の場合のdashboard画面のプルダウンボタンサイズの調整
+******************************************/
+@media (max-width: 500px) {
+    .pull_btn {
+        width: 110%;
+        font-size: 12px;
+        }
+    }
+
+/* 501px < screen-size の場合のdashboard画面のプルダウンボタンサイズの調整
+*****************************************/
+@media (min-width: 501px) {
+    .pull_btn {
+        width: 90%;
+        font-size: 18px;
+        }
+    }
+
+
+/* mypage/edit_creator_profile画面アイコンサイズの調整
+*****************************************/
+.noleft{
+    padding-left: 0;
+}
+
+/* topページコンテンツの画像幅固定、左右ボタンの幅調整(画面サイズ毎)
+*****************************************/
+@media (max-width: 575px){
+    .card-img-top2 {
+        width: 7.5rem;
+        height: 5rem;
+        object-fit: cover;
+    }
+    .card-img-top3 {
+        width: 7rem;
+        object-fit: contain;
+    }
+    .carousel_btn {
+        width: 7%;
+        background-color: lightgray;
+        }
+}
+
+@media (min-width: 576px) and (max-width: 768px){
+    .card-img-top2 {
+        width: 9rem;
+        height: 6em;
+        object-fit: cover;
+    }
+    .card-img-top3 {
+        width: 8rem;
+        object-fit: contain;
+    }
+    .carousel_btn {
+        width: 5%;
+        background-color: lightgray;
+        }
+}
+
+@media (min-width: 769px) and (max-width: 1199px){
+    .card-img-top2 {
+        width: 12rem;
+        height: 8em;
+        object-fit: cover;
+    }
+    .card-img-top3 {
+        width: 10rem;
+        object-fit: contain;
+    }
+    .carousel_btn {
+        width: 3%;
+        background-color: lightgray;
+    }
+}
+
+@media (min-width: 1200px){
+    .card-img-top2 {
+        width: 15rem;
+        height: 10em;
+        object-fit: cover;
+    }
+    .card-img-top3 {
+        width: 11rem;
+        object-fit: contain;
+    }
+    .carousel_btn {
+        width: 2%;
+        background-color: lightgray;
+    }
+}
+
+/* topページコンテンツの行間調整
+*****************************************/
+.top-line-height{
+    line-height: 1.1;
+    padding: 0.8rem;
+}
+
+/* facebookアイコンの色
+*****************************************/
+.facebook{
+    color: white;
+    background-color: #3b5998;
+}
+.facebook:hover{
+    color: white;
+    background-color: #2b4270;
+}
