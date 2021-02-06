@@ -53,6 +53,8 @@ $route['default_controller'] = 'top';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
+$route['manga/(:num)'] = 'Manga/index/$1';
+
 //Adminは管理画面
 $route['Admin/*'] = 'Admin/$1';
 //ファイルのアップロード用

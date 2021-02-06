@@ -521,3 +521,17 @@ $config['rewrite_short_tags'] = FALSE;
 | Array:		array('10.0.1.200', '192.168.5.0/24')
 */
 $config['proxy_ips'] = '';
+
+
+$category = array(
+	'name' => array(
+		0 => '女性漫画', 
+		1 => '少女漫画', 
+		2 => '青年漫画', 
+		3 => '少年漫画', 
+		4 => 'ティーンズラブ', 
+		5 => 'ボーイズラブ', 
+		6 => 'オトナ', 
+	)
+);
+$config['common_menu'] = $category;

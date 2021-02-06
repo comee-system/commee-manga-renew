@@ -12,27 +12,13 @@
 			
 				<?php $this->load->view('elements/topmenu'); ?>
 				
-			<div class="col-lg-10 col-12 ">
-				<div class="d-block d-lg-none">
-					<div class="table-responsive mt-0  col-12 scroll_box ">
-						<table class="menutable m-0 p-0">
-							<tr>
-								<?php foreach($menu_list as $key=>$value):?>
-									<td nowrap="">
-										<a href="/mypage/" class="linker" ><?=$value?></a>
-									</td>
-								<?php endforeach;?>
-							</tr>
-						</table>
-						
-					</div>
-				</div>
+			<div class="col-md-10">
 				<div class="d-block font-weight-bold h4 text-left">編集部のおすすめ</div>
 				<div class="row my-3">
 					<div class="col-md-3 col-6">
-						<a href="/manga/1" class="topLink">
+						<a href="/page/1" class="topLink">
 							<div class="card shadow-sm mb-4 ">
-								<div class="card-img top">
+								<div class="card-img">
 									<img src="https://news.kodansha.co.jp/content/images/201605/1920/kcp_Bshoku_shoei.jpg" alt="" class="topImg">
 								</div>
 								<div class="card-body d-flex flex-column align-items-start">
@@ -49,7 +35,7 @@
                     </div>
 					<div class="col-md-3 col-6">
                         <div class="card shadow-sm mb-4 ">
-                            <div class="card-img top"><img src="/assets/image/img/unnamed.jpg" alt="" class="topImg"></div>
+                            <div class="card-img"><img src="/assets/image/img/unnamed.jpg" alt="" class="topImg"></div>
                             <div class="card-body d-flex flex-column align-items-start">
                                 <small class="mb-1 p-1 border">カテゴリが⼊ります</small>
                                 <p class="mb-1 font-weight-bold">商品名が⼊ります</p>
@@ -64,7 +50,7 @@
                     </div>
 					<div class="col-md-3 col-6">
                         <div class="card shadow-sm mb-4 ">
-                            <div class="card-img top"><img src="/assets/image/img/unnamed.jpg" alt="" class="topImg"></div>
+                            <div class="card-img"><img src="/assets/image/img/unnamed.jpg" alt="" class="topImg"></div>
                             <div class="card-body d-flex flex-column align-items-start">
                                 <small class="mb-1 p-1 border">カテゴリが⼊ります</small>
                                 <p class="mb-1 font-weight-bold">商品名が⼊ります</p>
@@ -79,7 +65,7 @@
                     </div>
 					<div class="col-md-3 col-6">
                         <div class="card shadow-sm mb-4 ">
-                            <div class="card-img top"><img src="/assets/image/img/unnamed.jpg" alt="" class="topImg"></div>
+                            <div class="card-img"><img src="/assets/image/img/unnamed.jpg" alt="" class="topImg"></div>
                             <div class="card-body d-flex flex-column align-items-start">
                                 <small class="mb-1 p-1 border">カテゴリが⼊ります</small>
                                 <p class="mb-1 font-weight-bold">商品名が⼊ります</p>
